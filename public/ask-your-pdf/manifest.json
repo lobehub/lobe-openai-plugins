@@ -13,6 +13,6 @@
   "legal_info_url": "https://askyourpdf.com/terms",
   "logo_url": "https://plugin.askyourpdf.com/.well-known/logo.png",
   "name_for_human": "AskYourPDF",
-  "name_for_model": "askyourpdf",
+  "name_for_model": "ask-your-pdf",
   "schema_version": "v1"
 }
