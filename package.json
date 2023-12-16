@@ -1,0 +1,70 @@
+{
+  "name": "@lobehub/lobe-openai-plugins",
+  "version": "1.0.0",
+  "private": true,
+  "description": "a collection of openai plugins that chan work with LobeChat",
+  "homepage": "https://github.com/lobehub/lobe-openai-plugins",
+  "repository": "https://github.com/lobehub/lobe-openai-plugins.git",
+  "scripts": {
+    "build": "vite build",
+    "ci": "npm run lint && npm run type-check",
+    "dev": "vite",
+    "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "preview": "vite preview",
+    "start": "npm run dev",
+    "test": "vitest --passWithNoTests",
+    "test:coverage": "vitest --coverage  --passWithNoTests",
+    "type-check": "tsc --noEmit"
+  },
+  "lint-staged": {
+    "*.md": [
+      "remark --quiet --output --",
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.json": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{js,jsx}": [
+      "prettier --write",
+      "stylelint --fix",
+      "eslint --fix"
+    ],
+    "*.{ts,tsx}": [
+      "prettier --parser=typescript --write",
+      "stylelint --fix",
+      "eslint --fix"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "dependencies": {
+    "@lobehub/chat-plugin-sdk": "^1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17",
+    "@lobehub/lint": "latest",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "@vitest/coverage-v8": "latest",
+    "commitlint": "^17",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "husky": "^8",
+    "lint-staged": "^15",
+    "prettier": "^3.0.3",
+    "stylelint": "^15",
+    "typescript": "^5.3.3",
+    "vercel": "^28",
+    "vite": "^5",
+    "vitest": "latest"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  }
+}
