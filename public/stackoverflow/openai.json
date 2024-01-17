@@ -1,0 +1,113 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Stack Overflow Search",
+        "description": "Stack Overflow Search API retrieves questions from Stack Overflow made after 2019/09/01. Use this API if the user is asking for a programming question that requires knowledge beyond the knowledge cutoff date of 09/01/2019.",
+        "version": "1.0.0",
+        "contact": {
+            "email": "gary@parrot.ink"
+        }
+    },
+    "servers": [
+        {
+            "url": "https://stack-overflow-search.onrender.com"
+        }
+    ],
+    "paths": {
+        "/app/stack_overflow/search": {
+            "get": {
+                "operationId": "search",
+                "summary": "Stack overflow search. Use this API for coding questions.",
+                "parameters": [
+                    {
+                        "name": "q_reg",
+                        "in": "query",
+                        "description": "Question used for search on Stack Overflow.",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "q_sm",
+                        "in": "query",
+                        "description": "A more concise version of the question to be used for search on Stack Overflow. Used as a backup option B if the full question does not yield any results. Max word count is 7.",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "q_xs",
+                        "in": "query",
+                        "description": "A more even more concise version of the question to be used for search on Stack Overflow. Used as a backup option C. Max word count is 3.",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Related questions from Stack Overflow. User should click on the link to see the full question and answers.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "title": {
+                                                "type": "string"
+                                            },
+                                            "link": {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            "tags": {
+                                                "type": "array",
+                                                "items": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "answer_count": {
+                                                "type": "integer",
+                                                "format": "int32"
+                                            },
+                                            "view_count": {
+                                                "type": "integer",
+                                                "format": "int32"
+                                            },
+                                            "score": {
+                                                "type": "integer",
+                                                "format": "int32"
+                                            },
+                                            "last_activity_date": {
+                                                "type": "integer",
+                                                "format": "int64"
+                                            },
+                                            "creation_date": {
+                                                "type": "integer",
+                                                "format": "int64"
+                                            }
+                                        },
+                                        "required": [
+                                            "title",
+                                            "link",
+                                            "tags",
+                                            "answer_count",
+                                            "view_count",
+                                            "score",
+                                            "last_activity_date",
+                                            "creation_date"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
