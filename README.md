@@ -4,17 +4,14 @@
 
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/puzzle-piece.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/credit-card.webp">
+<img height="120" src="https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/297249119-93466e09-5233-4d26-be80-adb6a397d42d.svg">
 
-<h1>Mock Credit Card<br/><sup>LobeChat Plugin</sup></h1>
+<h1>OpenAI Plugins Directory<br/><sup>LobeChat Plugin</sup></h1>
 
-This plugin can create a mock credit card number
+Select from futurepedia ai-plugins
 
 [![][🤯-🧩-lobehub-shield]][🤯-🧩-lobehub-link]
-[![][github-release-shield]][github-release-link]
-[![][github-releasedate-shield]][github-releasedate-link]
 [![][github-action-test-shield]][github-action-test-link]
-[![][github-action-release-shield]][github-action-release-link]<br/>
 [![][github-contributors-shield]][github-contributors-link]
 [![][github-forks-shield]][github-forks-link]
 [![][github-stars-shield]][github-stars-link]
@@ -44,7 +41,7 @@ This plugin can create a mock credit card number
 
 ## 🤯 Usage
 
-Please create a account in the [OpenAPIHub](https://www.openapihub.com) and subscribe [Credit Card Number Generator](https://hub.openapihub.com/zh-cn/v/dev-geeks-7gz88/api/credit-card-number-generator-s9s6b/readme) for free.
+<https://www.futurepedia.io/>
 
 <div align="right">
 
@@ -78,8 +75,8 @@ Or clone it for local development:
 [![][bun-shield]][bun-link]
 
 ```bash
-$ git clone https://github.com/lobehub/chat-plugin-web-crawler.git
-$ cd chat-plugin-web-crawler
+$ git clone https://github.com/lobehub/lobe-openai-plugins.git
+$ cd lobe-openai-plugins
 $ bun install
 $ bun dev
 ```
@@ -132,29 +129,29 @@ This project is [MIT](./LICENSE) licensed.
 [chat-plugin-sdk]: https://github.com/lobehub/chat-plugin-sdk
 [chat-plugin-template]: https://github.com/lobehub/chat-plugin-
 [chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
-[github-action-release-link]: https://github.com/lobehub/chat-plugin-web-crawler/actions/workflows/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-web-crawler/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/lobehub/chat-plugin-web-crawler/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-web-crawler/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-codespace-link]: https://codespaces.new/lobehub/chat-plugin-web-crawler
+[github-action-release-link]: https://github.com/lobehub/lobe-openai-plugins/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-openai-plugins/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/lobehub/lobe-openai-plugins/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-openai-plugins/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-codespace-link]: https://codespaces.new/lobehub/lobe-openai-plugins
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
-[github-contrib-link]: https://github.com/lobehub/chat-plugin-web-crawler/graphs/contributors
-[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fchat-plugin-web-crawler
-[github-contributors-link]: https://github.com/lobehub/chat-plugin-web-crawler/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/chat-plugin-web-crawler?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/lobehub/chat-plugin-web-crawler/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/lobehub/chat-plugin-web-crawler?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/lobehub/chat-plugin-web-crawler/issues
-[github-issues-shield]: https://img.shields.io/github/issues/lobehub/chat-plugin-web-crawler?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/lobehub/chat-plugin-web-crawler/blob/main/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/lobehub/chat-plugin-web-crawler?color=white&labelColor=black&style=flat-square
-[github-release-link]: https://github.com/lobehub/chat-plugin-web-crawler/releases
-[github-release-shield]: https://img.shields.io/github/v/release/lobehub/chat-plugin-web-crawler?color=369eff&labelColor=black&logo=github&style=flat-square
-[github-releasedate-link]: https://github.com/lobehub/chat-plugin-web-crawler/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-web-crawler?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/lobehub/chat-plugin-web-crawler/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-web-crawler?color=ffcb47&labelColor=black&style=flat-square
+[github-contrib-link]: https://github.com/lobehub/lobe-openai-plugins/graphs/contributors
+[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Flobe-openai-plugins
+[github-contributors-link]: https://github.com/lobehub/lobe-openai-plugins/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-openai-plugins?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/lobehub/lobe-openai-plugins/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-openai-plugins?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/lobehub/lobe-openai-plugins/issues
+[github-issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-openai-plugins?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/lobehub/lobe-openai-plugins/blob/main/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/lobehub/lobe-openai-plugins?color=white&labelColor=black&style=flat-square
+[github-release-link]: https://github.com/lobehub/lobe-openai-plugins/releases
+[github-release-shield]: https://img.shields.io/github/v/release/lobehub/lobe-openai-plugins?color=369eff&labelColor=black&logo=github&style=flat-square
+[github-releasedate-link]: https://github.com/lobehub/lobe-openai-plugins/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-openai-plugins?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/lobehub/lobe-openai-plugins/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-openai-plugins?color=ffcb47&labelColor=black&style=flat-square
 [lobe-chat-plugins]: https://github.com/lobehub/lobe-chat-plugins
-[pr-welcome-link]: https://github.com/lobehub/chat-plugin-web-crawler/pulls
+[pr-welcome-link]: https://github.com/lobehub/lobe-openai-plugins/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20PR%20WELCOME-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/lobehub
