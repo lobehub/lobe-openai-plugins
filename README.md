@@ -4,11 +4,11 @@
 
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/puzzle-piece.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/297249119-93466e09-5233-4d26-be80-adb6a397d42d.svg">
+<img height="120" src="https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/297340190-c683c727-58ee-4bab-8d91-f36fe541e511.png">
 
 <h1>OpenAI Plugins Directory<br/><sup>LobeChat Plugin</sup></h1>
 
-Select from futurepedia ai-plugins
+Proxy for selected ChatGPT plugins from community
 
 [![][🤯-🧩-lobehub-shield]][🤯-🧩-lobehub-link]
 [![][github-action-test-shield]][github-action-test-link]
@@ -41,7 +41,9 @@ Select from futurepedia ai-plugins
 
 ## 🤯 Usage
 
-<https://www.futurepedia.io/>
+- <https://chat-gpt-plugins.getit.ai/gpt-plugins>
+- <https://www.futurepedia.io/>
+- <https://github.com/sisbell/chatgpt-plugin-store>
 
 <div align="right">
 
