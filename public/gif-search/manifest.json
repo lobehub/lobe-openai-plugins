@@ -10,7 +10,7 @@
   "api": {
     "type": "openapi",
     "is_user_authenticated": "false",
-    "url": "https://stack-overflow-search.onrender.com/gif-search/openapi.yaml"
+    "url": "https://openai-collections.chat-plugin.lobehub.com/gif-search/openapi.yaml"
   },
   "logo_url": "https://chat-plugin-giphy.efficiency.tools/.well-known/logo.png",
   "contact_email": "gif-search-plugin@efficiency.tools",

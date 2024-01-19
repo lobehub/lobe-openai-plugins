@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://stack-overflow-search.onrender.com/seo/openapi.yaml",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/seo/openapi.yaml",
     "is_user_authenticated": false
   },
   "logo_url": "https://seo-plugin.orrenprunckun.com/icon.png",

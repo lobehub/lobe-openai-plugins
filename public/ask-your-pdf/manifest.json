@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://stack-overflow-search.onrender.com/ask-your-pdf/openapi.yaml",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/ask-your-pdf/openapi.yaml",
     "has_user_authentication": false
   },
   "logo_url": "https://plugin.askyourpdf.com/.well-known/logo.png",

@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://stack-overflow-search.onrender.com/asset-ovi/openapi.yaml",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/asset-ovi/openapi.yaml",
     "is_user_authenticated": false
   },
   "logo_url": "https://assetovi-cdn.yahaha.com/assetovi-gpt-logo.png",

@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://stack-overflow-search.onrender.com/savvy-trader/openapi.yaml",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/openapi.yaml",
     "is_user_authenticated": false
   },
   "logo_url": "https://savvytrader.com/android-chrome-192x192.png",

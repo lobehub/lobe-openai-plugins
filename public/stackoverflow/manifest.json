@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://stack-overflow-search.onrender.com/stackoverflow/openapi.json",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/stackoverflow/openapi.json",
     "is_user_authenticated": false
   },
   "logo_url": "https://stack-overflow-search.onrender.com/.well-known/logo",

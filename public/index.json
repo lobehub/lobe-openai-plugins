@@ -5,7 +5,7 @@
       "author": "orrenprunckun",
       "homepage": "https://seo-plugin.orrenprunckun.com",
       "identifier": "SEO",
-      "manifest": "https://stack-overflow-search.onrender.com/seo/manifest.json",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/seo/manifest.json",
       "meta": {
         "avatar": "https://seo-plugin.orrenprunckun.com/icon.png",
         "description": "Enter any URL and keyword and get an On-Page SEO analysis & insights!",
@@ -20,7 +20,7 @@
       "author": "savvytrader",
       "homepage": "https://savvytrader.com",
       "identifier": "savvy_trader_ai",
-      "manifest": "https://stack-overflow-search.onrender.com/savvy-trader/manifest.json",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/manifest.json",
       "meta": {
         "avatar": "https://savvytrader.com/android-chrome-192x192.png",
         "description": "Realtime stock, crypto and other investment data.",
@@ -36,7 +36,7 @@
       "author": "askyourpdf",
       "homepage": "https://plugin.askyourpdf.com",
       "identifier": "askyourpdf",
-      "manifest": "https://stack-overflow-search.onrender.com/ask-your-pdf/manifest.json",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/ask-your-pdf/manifest.json",
       "meta": {
         "avatar": "https://plugin.askyourpdf.com/.well-known/logo.png",
         "description": "Unlock the power of your PDFs!, dive into your documents, find answers, and bring information to your fingertips.",
@@ -53,7 +53,7 @@
       "author": "assetovi",
       "homepage": "https://assetovi.com",
       "identifier": "assetOvi",
-      "manifest": "https://stack-overflow-search.onrender.com/asset-ovi/manifest.json",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/asset-ovi/manifest.json",
       "meta": {
         "avatar": "https://assetovi-cdn.yahaha.com/assetovi-gpt-logo.png",
         "description": "Search and preview millions of 3D assets for games, AIGC, AR/VR and others.",
@@ -70,7 +70,7 @@
       "author": "efficiency",
       "homepage": "https://chat-plugin-giphy.efficiency.tools",
       "identifier": "GifApi",
-      "manifest": "https://stack-overflow-search.onrender.com/gif-search/manifest.json",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/gif-search/manifest.json",
       "meta": {
         "avatar": "https://chat-plugin-giphy.efficiency.tools/.well-known/logo.png",
         "description": "Search through a wide range of gifs - Powered by Giphy.",
@@ -87,7 +87,7 @@
       "author": "say-apps",
       "homepage": "https://twitter.say-apps.com",
       "identifier": "socialsearch",
-      "manifest": "https://stack-overflow-search.onrender.com/social-search/manifest.json",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/social-search/manifest.json",
       "meta": {
         "avatar": "https://twitter.say-apps.com/logo.png",
         "description": "The Social Search provides access to tweets, users, followers, images, media and more.",
@@ -105,7 +105,7 @@
       "author": "onrender",
       "homepage": "https://stack-overflow-search.onrender.com",
       "identifier": "stackoverflow_plus",
-      "manifest": "https://stack-overflow-search.onrender.com/stackoverflow/manifest.json",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/stackoverflow/manifest.json",
       "meta": {
         "avatar": "https://stack-overflow-search.onrender.com/.well-known/logo",
         "description": "Expand your knowledge beyond 2021/09/01. Get recent questions and answers from Stack Overflow.",
