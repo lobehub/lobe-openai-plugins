@@ -5,6 +5,11 @@ interface PluginItem {
 }
 const PluginList: PluginItem[] = [
   {
+    manifest: 'https://seo-plugin.orrenprunckun.com/.well-known/ai-plugin.json',
+    path: 'seo',
+    tags: ['seo'],
+  },
+  {
     manifest: 'https://savvytrader.com/.well-known/ai-plugin.json',
     path: 'savvy-trader',
     tags: ['stock', 'analyze'],

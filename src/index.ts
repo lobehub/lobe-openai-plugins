@@ -1,12 +1,12 @@
 import { consola } from 'consola';
-import { existsSync, mkdirSync, rmSync } from 'node:fs';
+import { existsSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import pMap from 'p-map';
 import urlJoin from 'url-join';
 
 import { BASE_URL, pluginDir } from './const';
 import data from './syncList';
-import { getAuthor, getDomainFromUrl, writeJSON, writeYAML } from './utils';
+import { getAuthor, getDomainFromUrl, readJSON, writeJSON, writeYAML } from './utils';
 
 interface PluginMainifest {
   api: {
@@ -19,6 +19,7 @@ interface PluginMainifest {
 }
 
 const run = async () => {
+  let expireList: string[] = [];
   const list = await pMap(
     data,
     async ({ manifest, path, tags }) => {
@@ -60,14 +61,18 @@ const run = async () => {
         };
       } catch (error) {
         console.error(`Failed to sync ${path}`, error);
-        rmSync(dirPath, { force: true, recursive: true });
-        console.warn(`Remove ${path}`);
+        const cacheManifest: PluginMainifest = readJSON(resolve(dirPath, 'manifest.json'));
+        expireList.push(cacheManifest.name_for_model);
+        console.warn(`Add ${path} to expire list`);
       }
     },
     { concurrency: 5 },
   );
 
-  writeJSON(resolve(pluginDir, 'index.json'), list);
+  writeJSON(resolve(pluginDir, 'index.json'), {
+    expires: expireList,
+    plugins: list.filter(Boolean),
+  });
 };
 
 run();

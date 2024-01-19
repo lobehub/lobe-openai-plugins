@@ -1,4 +1,9 @@
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
+
+export const readJSON = (filePath) => {
+  const data = readFileSync(filePath, 'utf8');
+  return JSON.parse(data);
+};
 
 export const writeJSON = (filePath, data) => {
   const jsonStr = JSON.stringify(data, null, 2);
