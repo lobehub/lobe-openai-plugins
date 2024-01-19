@@ -6,9 +6,9 @@
   "homepage": "https://github.com/lobehub/lobe-openai-plugins",
   "repository": "https://github.com/lobehub/lobe-openai-plugins.git",
   "scripts": {
-    "build": "tsx src/index.ts",
+    "build": "bun src/index.ts",
     "ci": "npm run lint && npm run type-check",
-    "dev": "tsx src/index.ts",
+    "dev": "bun src/index.ts",
     "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
     "lint:md": "remark . --quiet --frail --output",
     "prepare": "husky install",
@@ -50,7 +50,6 @@
     "remark": "^14",
     "remark-cli": "^11",
     "stylelint": "^15",
-    "tsx": "^4",
     "typescript": "^5",
     "url-join": "^5"
   }
