@@ -11,7 +11,7 @@
 Proxy for selected ChatGPT plugins from community
 
 [![][🤯-🧩-lobehub-shield]][🤯-🧩-lobehub-link]
-[![][github-action-test-shield]][github-action-test-link]
+[![][github-action-release-shield]][github-action-release-link]
 [![][github-contributors-shield]][github-contributors-link]
 [![][github-forks-shield]][github-forks-link]
 [![][github-stars-shield]][github-stars-link]
@@ -41,9 +41,7 @@ Proxy for selected ChatGPT plugins from community
 
 ## 🤯 Usage
 
-- <https://chat-gpt-plugins.getit.ai/gpt-plugins>
-- <https://www.futurepedia.io/>
-- <https://github.com/sisbell/chatgpt-plugin-store>
+Edit `src/syncList.ts` to sync the plugins manifest.
 
 <div align="right">
 
@@ -105,8 +103,16 @@ Contributions of all types are more than welcome, if you are interested in contr
 
 ## 🔗 Links
 
+### More Products
+
 - **[🤖 Lobe Chat](https://github.com/lobehub/lobe-chat)** - An open-source, extensible (Function Calling), high-performance chatbot framework. It supports one-click free deployment of your private ChatGPT/LLM web application.
 - **[🧩 / 🏪 Plugin Index](https://github.com/lobehub/lobe-chat-plugins)** - This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for Function Calling to the user.
+
+### Credits
+
+- <https://chat-gpt-plugins.getit.ai/gpt-plugins>
+- <https://www.futurepedia.io/>
+- <https://github.com/sisbell/chatgpt-plugin-store>
 
 <div align="right">
 
@@ -133,8 +139,6 @@ This project is [MIT](./LICENSE) licensed.
 [chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
 [github-action-release-link]: https://github.com/lobehub/lobe-openai-plugins/actions/workflows/release.yml
 [github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-openai-plugins/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/lobehub/lobe-openai-plugins/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-openai-plugins/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
 [github-codespace-link]: https://codespaces.new/lobehub/lobe-openai-plugins
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
 [github-contrib-link]: https://github.com/lobehub/lobe-openai-plugins/graphs/contributors

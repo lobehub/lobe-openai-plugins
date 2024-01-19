@@ -1,25 +1,9 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
-    "target": "ES5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "sourceMap": true,
-    "skipDefaultLibCheck": true,
-    "jsx": "react-jsx",
-    "baseUrl": ".",
-    "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "paths": {
-      "@@/*": [".dumi/tmp/*"],
-      "@/*": ["src/*"]
-    },
-    "types": ["vitest/globals"]
+    "module": "ESNext",
+    "target": "es2017",
+    "noEmit": true,
+    "moduleResolution": "bundler",
   },
-  "include": ["src", "docs", "api"]
+  "include": ["src"],
 }
