@@ -39,6 +39,36 @@ const PluginList: PluginItem[] = [
     path: 'stackoverflow',
     tags: ['stack-overflow', 'q-a'],
   },
+  {
+    manifest: 'https://api.getchange.io/.well-known/ai-plugin.json',
+    path: 'getchange',
+    tags: ['charity'],
+  },
+  {
+    manifest: 'https://cryptoplugin.feednews.com/.well-known/ai-plugin.json',
+    path: 'token-insights',
+    tags: ['crypto','BTC','ETH','BNB'],
+  },
+  {
+    manifest: 'https://app.swap.net/.well-known/ai-plugin.json',
+    path: 'nftguru',
+    tags: ['crypto','NFT'],
+  },
+  {
+    manifest: 'https://llamawrapper-prod.onrender.com/.well-known/ai-plugin.json',
+    path: 'defillama',
+    tags: ['crypto','DeFi'],
+  },
+  {
+    manifest: 'https://search-ai.mintbase.xyz/.well-known/ai-plugin.json',
+    path: 'mintbasesearch',
+    tags: ['crypto','NFT'],
+  },
+  {
+    manifest: 'https://speak.com/.well-known/ai-plugin.json',
+    path: 'speak',
+    tags: ['education','language'],
+  },
 ];
 
 export default PluginList;
