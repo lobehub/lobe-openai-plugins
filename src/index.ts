@@ -61,9 +61,11 @@ const run = async () => {
         };
       } catch (error) {
         console.error(`Failed to sync ${path}`, error);
-        const cacheManifest: PluginMainifest = readJSON(resolve(dirPath, 'manifest.json'));
-        expireList.push(cacheManifest.name_for_model);
-        console.warn(`Add ${path} to expire list`);
+        if (existsSync(resolve(dirPath, 'manifest.json'))) {
+          const cacheManifest: PluginMainifest = readJSON(resolve(dirPath, 'manifest.json'));
+          expireList.push(cacheManifest.name_for_model);
+          console.warn(`Add ${path} to expire list`);
+        }
       }
     },
     { concurrency: 5 },
