@@ -1,0 +1,17 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/token-insights/openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "aiplugins-contact-list@opera.com",
+  "description_for_human": "Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.",
+  "description_for_model": "Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.",
+  "legal_info_url": "https://legal.opera.com/terms/",
+  "logo_url": "https://img.feednews.com/assets/v2/f7eabc30a8ac4f6d82d9bf7e6d32c342",
+  "name_for_human": "TokenInsights",
+  "name_for_model": "TokenInsights",
+  "schema_version": "v1"
+}

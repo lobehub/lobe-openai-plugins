@@ -1,0 +1,62 @@
+{
+  "info": {
+    "title": "Mintbase",
+    "description": "This allows the user to get latest market data (listings, sales, etc).",
+    "version": "v1"
+  },
+  "openapi": "3.0.1",
+  "paths": {
+    "/api/plugins/search/submit-query": {
+      "post": {
+        "operationId": "SubmitQuery",
+        "summary": "Submit generated GraphQL query and respective variables",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "query": {
+                    "type": "string"
+                  },
+                  "variables": {
+                    "type": "object"
+                  },
+                  "network": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": ["object", null]
+                    },
+                    "error": {
+                      "type": ["object", "string"]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://search-ai.mintbase.xyz/"
+    }
+  ]
+}
