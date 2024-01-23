@@ -104,6 +104,16 @@ const PluginList: PluginItem[] = [
     path: 'weather-gpt',
     tags: ['weather'],
   },
+  {
+    manifest: 'https://chat-gpt-github-stat-plugin.vercel.app/.well-known/ai-plugin.json',
+    path: 'github-stats',
+    tags: ['github', 'oss'],
+  },
+  {
+    manifest: 'https://chatgpt-plugin.questmate.com/.well-known/ai-plugin.json',
+    path: 'questmate',
+    tags: ['forms', 'checklists', 'productivity'],
+  },
 ];
 
 export default PluginList;
