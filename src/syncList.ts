@@ -69,6 +69,11 @@ const PluginList: PluginItem[] = [
     path: 'speak',
     tags: ['education','language'],
   },
+  {
+    manifest: 'https://openai.tapapis.com/.well-known/ai-plugin.json',
+    path: 'game-sight',
+    tags: ['game','search'],
+  },
 ];
 
 export default PluginList;
