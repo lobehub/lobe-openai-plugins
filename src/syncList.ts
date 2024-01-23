@@ -47,32 +47,62 @@ const PluginList: PluginItem[] = [
   {
     manifest: 'https://cryptoplugin.feednews.com/.well-known/ai-plugin.json',
     path: 'token-insights',
-    tags: ['crypto','BTC','ETH','BNB'],
+    tags: ['crypto', 'BTC', 'ETH', 'BNB'],
   },
   {
     manifest: 'https://app.swap.net/.well-known/ai-plugin.json',
     path: 'nftguru',
-    tags: ['crypto','NFT'],
+    tags: ['crypto', 'NFT'],
   },
   {
     manifest: 'https://llamawrapper-prod.onrender.com/.well-known/ai-plugin.json',
     path: 'defillama',
-    tags: ['crypto','DeFi'],
+    tags: ['crypto', 'DeFi'],
   },
   {
     manifest: 'https://search-ai.mintbase.xyz/.well-known/ai-plugin.json',
     path: 'mintbasesearch',
-    tags: ['crypto','NFT'],
+    tags: ['crypto', 'NFT'],
   },
   {
     manifest: 'https://speak.com/.well-known/ai-plugin.json',
     path: 'speak',
-    tags: ['education','language'],
+    tags: ['education', 'language'],
   },
   {
     manifest: 'https://openai.tapapis.com/.well-known/ai-plugin.json',
     path: 'game-sight',
-    tags: ['game','search'],
+    tags: ['game', 'search'],
+  },
+  {
+    manifest: 'https://websearch.plugsugar.com/.well-known/ai-plugin.json',
+    path: 'web-search',
+    tags: ['search', 'plugsugar'],
+  },
+  {
+    manifest: 'https://sheet-generator.brandzzy.com/.well-known/ai-plugin.json',
+    path: 'make-a-sheet',
+    tags: ['csv', 'excel', 'sheet'],
+  },
+  {
+    manifest: 'https://showme.redstarplugin.com/.well-known/ai-plugin.json',
+    path: 'diagrams-show-me',
+    tags: ['diagrams'],
+  },
+  {
+    manifest: 'https://chatgpt.boolio.co.kr/.well-known/ai-plugin.json',
+    path: 'boolio',
+    tags: ['stock', 'analyze'],
+  },
+  {
+    manifest: 'https://api.360macky.com/.well-known/ai-plugin.json',
+    path: 'astrodaily',
+    tags: ['nasa', 'search', 'image'],
+  },
+  {
+    manifest: 'https://weathergpt.vercel.app/.well-known/ai-plugin.json',
+    path: 'weather-gpt',
+    tags: ['weather'],
   },
 ];
 
