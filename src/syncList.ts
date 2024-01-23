@@ -154,6 +154,16 @@ const PluginList: PluginItem[] = [
     path: 'nba-stats',
     tags: ['sports', 'basketball', 'nba'],
   },
+  {
+    manifest: 'https://vcaption.maila.ai/.well-known/ai-plugin.json',
+    path: 'video-captions',
+    tags: ['video-to-text', 'youtube'],
+  },
+  {
+    manifest: 'https://glarity.app/.well-known/ai-plugin.json',
+    path: 'video-summary',
+    tags: ['video-to-text', 'youtube'],
+  },
 ];
 
 export default PluginList;
