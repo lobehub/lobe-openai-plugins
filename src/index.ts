@@ -60,7 +60,7 @@ const run = async () => {
         }
 
         manifestJson.api.url = urlJoin(BASE_URL, path, apiFilename);
-        manifestJson.logo_url = urlJoin(BASE_URL, path, logoName);
+        manifestJson.logo_url = urlJoin(BASE_URL, path, `logo.webp`);
         writeJSON(resolve(dirPath, 'manifest.json'), manifestJson);
 
         consola.success(`Synced ${path}`);
