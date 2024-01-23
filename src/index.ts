@@ -1,7 +1,8 @@
 import { consola } from 'consola';
-import { existsSync, mkdirSync } from 'node:fs';
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import pMap from 'p-map';
+import sharp from 'sharp';
 import urlJoin from 'url-join';
 
 import { BASE_URL, pluginDir } from './const';
@@ -23,6 +24,7 @@ const run = async () => {
   const list = await pMap(
     data,
     async ({ manifest, path, tags }) => {
+      consola.start(path);
       const dirPath = resolve(pluginDir, path);
       try {
         if (!existsSync(dirPath)) {
@@ -42,8 +44,25 @@ const run = async () => {
           const apiYaml = await apiRes.text();
           writeYAML(resolve(dirPath, apiFilename), apiYaml);
         }
+
+        const logoName = resolve(dirPath, `logo.webp`);
+
+        if (!existsSync(logoName)) {
+          const logoRes = await fetch(manifestJson.logo_url);
+          if (logoRes.ok) {
+            const blob = await logoRes.blob();
+            const arrayBuffer = await blob.arrayBuffer();
+            const buffer = Buffer.from(arrayBuffer);
+            const image = sharp(buffer);
+            await image.resize(512, 512).webp().toFile(logoName);
+            writeFileSync(logoName, buffer);
+          }
+        }
+
         manifestJson.api.url = urlJoin(BASE_URL, path, apiFilename);
+        manifestJson.logo_url = urlJoin(BASE_URL, path, logoName);
         writeJSON(resolve(dirPath, 'manifest.json'), manifestJson);
+
         consola.success(`Synced ${path}`);
 
         return {
@@ -60,15 +79,15 @@ const run = async () => {
           schemaVersion: 1,
         };
       } catch (error) {
-        console.error(`Failed to sync ${path}`, error);
-        if (existsSync(resolve(dirPath, 'manifest.json'))) {
-          const cacheManifest: PluginMainifest = readJSON(resolve(dirPath, 'manifest.json'));
-          expireList.push(cacheManifest.name_for_model);
-          console.warn(`Add ${path} to expire list`);
-        }
+        consola.error(`Failed to sync ${path}`, error);
+        const cachePath = resolve(dirPath, 'manifest.json');
+        if (!existsSync(cachePath)) return;
+        const cacheManifest: PluginMainifest = readJSON(resolve(dirPath, 'manifest.json'));
+        expireList.push(cacheManifest.name_for_model);
+        consola.warn(`Add ${path} to expire list`);
       }
     },
-    { concurrency: 5 },
+    { concurrency: 1 },
   );
 
   writeJSON(resolve(pluginDir, 'index.json'), {
