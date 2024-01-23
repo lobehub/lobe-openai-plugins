@@ -7,7 +7,7 @@
       "identifier": "SEO",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/seo/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/seo/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/seo/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/seo/logo.webp",
         "description": "Enter any URL and keyword and get an On-Page SEO analysis & insights!",
         "tags": ["seo"],
         "title": "SEO"
@@ -20,7 +20,7 @@
       "identifier": "savvy_trader_ai",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/savvy-trader/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/logo.webp",
         "description": "Realtime stock, crypto and other investment data.",
         "tags": ["stock", "analyze"],
         "title": "Savvy Trader AI"
@@ -33,7 +33,7 @@
       "identifier": "askyourpdf",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/ask-your-pdf/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/ask-your-pdf/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/ask-your-pdf/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/ask-your-pdf/logo.webp",
         "description": "Unlock the power of your PDFs!, dive into your documents, find answers, and bring information to your fingertips.",
         "tags": ["pdf", "document", "web"],
         "title": "AskYourPDF"
@@ -46,7 +46,7 @@
       "identifier": "assetOvi",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/asset-ovi/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/asset-ovi/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/asset-ovi/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/asset-ovi/logo.webp",
         "description": "Search and preview millions of 3D assets for games, AIGC, AR/VR and others.",
         "tags": ["3-d", "assets", "search"],
         "title": "Asset Ovi"
@@ -59,7 +59,7 @@
       "identifier": "GifApi",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/gif-search/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/gif-search/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/gif-search/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/gif-search/logo.webp",
         "description": "Search through a wide range of gifs - Powered by Giphy.",
         "tags": ["gif", "image", "search"],
         "title": "GIF Search"
@@ -72,7 +72,7 @@
       "identifier": "socialsearch",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/social-search/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/social-search/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/social-search/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/social-search/logo.webp",
         "description": "The Social Search provides access to tweets, users, followers, images, media and more.",
         "tags": ["social", "twitter", "x", "search"],
         "title": "Social Search"
@@ -85,7 +85,7 @@
       "identifier": "stackoverflow_plus",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/stackoverflow/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/stackoverflow/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/stackoverflow/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/stackoverflow/logo.webp",
         "description": "Expand your knowledge beyond 2021/09/01. Get recent questions and answers from Stack Overflow.",
         "tags": ["stack-overflow", "q-a"],
         "title": "StackOverflow Plus"
@@ -98,7 +98,7 @@
       "identifier": "nonprofits",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/getchange/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/getchange/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/getchange/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/getchange/logo.webp",
         "description": "Discover impactful nonprofits to support in your community and beyond.",
         "tags": ["charity"],
         "title": "Change"
@@ -111,7 +111,7 @@
       "identifier": "TokenInsights",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/token-insights/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/token-insights/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/token-insights/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/token-insights/logo.webp",
         "description": "Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.",
         "tags": ["crypto", "BTC", "ETH", "BNB"],
         "title": "TokenInsights"
@@ -124,7 +124,7 @@
       "identifier": "nftguru",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/nftguru/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/nftguru/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/nftguru/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/nftguru/logo.webp",
         "description": "Discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time",
         "tags": ["crypto", "NFT"],
         "title": "NFT Guru"
@@ -137,7 +137,7 @@
       "identifier": "defillama",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/defillama/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/defillama/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/defillama/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/defillama/logo.webp",
         "description": "Retrieve data on DeFi protocols and blockchains.",
         "tags": ["crypto", "DeFi"],
         "title": "Defillama"
@@ -150,7 +150,7 @@
       "identifier": "mintbasesearch",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/mintbasesearch/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/mintbasesearch/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/mintbasesearch/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/mintbasesearch/logo.webp",
         "description": "Find any NFT data on the NEAR Protocol.",
         "tags": ["crypto", "NFT"],
         "title": "MintbaseSearch"
@@ -163,7 +163,7 @@
       "identifier": "speak",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/speak/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/speak/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/speak/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/speak/logo.webp",
         "description": "Learn how to say anything in another language with Speak, your AI-powered language tutor.",
         "tags": ["education", "language"],
         "title": "Speak"
@@ -176,7 +176,7 @@
       "identifier": "GameSight",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/game-sight/manifest.json",
       "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/game-sight/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/game-sight/logo.webp",
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/game-sight/logo.webp",
         "description": "Discover games, game-related content, get recommendations, and compare games based on player reviews.",
         "tags": ["game", "search"],
         "title": "GameSight"

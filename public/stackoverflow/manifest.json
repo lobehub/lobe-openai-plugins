@@ -11,7 +11,7 @@
   "description_for_human": "Expand your knowledge beyond 2021/09/01. Get recent questions and answers from Stack Overflow.",
   "description_for_model": "Get recent answers to your questions from Stack Overflow.",
   "legal_info_url": "https://stack-overflow-search.onrender.com/.well-known/legal",
-  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/stackoverflow/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/stackoverflow/logo.webp",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/stackoverflow/logo.webp",
   "name_for_human": "StackOverflow Plus",
   "name_for_model": "stackoverflow_plus",
   "schema_version": "v1"

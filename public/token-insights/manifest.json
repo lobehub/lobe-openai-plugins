@@ -10,7 +10,7 @@
   "description_for_human": "Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.",
   "description_for_model": "Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.",
   "legal_info_url": "https://legal.opera.com/terms/",
-  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/token-insights/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/token-insights/logo.webp",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/token-insights/logo.webp",
   "name_for_human": "TokenInsights",
   "name_for_model": "TokenInsights",
   "schema_version": "v1"

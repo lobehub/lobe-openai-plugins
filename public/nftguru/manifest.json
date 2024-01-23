@@ -11,7 +11,7 @@
   "description_for_human": "Discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time",
   "description_for_model": "discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time data.",
   "legal_info_url": "https://app.swap.net/privacy",
-  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/nftguru/home/runner/work/lobe-openai-plugins/lobe-openai-plugins/public/nftguru/logo.webp",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/nftguru/logo.webp",
   "name_for_human": "NFT Guru",
   "name_for_model": "nftguru",
   "schema_version": "v1"
