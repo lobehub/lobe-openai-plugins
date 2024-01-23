@@ -114,6 +114,46 @@ const PluginList: PluginItem[] = [
     path: 'questmate',
     tags: ['forms', 'checklists', 'productivity'],
   },
+  {
+    manifest: 'https://scholarly.maila.ai/.well-known/ai-plugin.json',
+    path: 'scholarly',
+    tags: ['scientific-literature', 'search'],
+  },
+  {
+    manifest: 'https://api.litmaps.com/.well-known/ai-plugin.json',
+    path: 'litmaps',
+    tags: ['scientific-literature', 'search'],
+  },
+  {
+    manifest: 'https://txyz.ai/.well-known/ai-plugin.json',
+    path: 'txyz',
+    tags: ['research-paper', 'search'],
+  },
+  {
+    manifest: 'https://www.guruwalk.com/.well-known/ai-plugin.json',
+    path: 'guru-walk',
+    tags: ['travel', 'guides'],
+  },
+  {
+    manifest: 'https://www.travelmyth.com/.well-known/ai-plugin.json',
+    path: 'travelmyth',
+    tags: ['travel', 'hotel', 'search'],
+  },
+  {
+    manifest: 'https://earthquake.beta3.dev/.well-known/ai-plugin.json',
+    path: 'earthquake',
+    tags: ['earthquake', 'utilities'],
+  },
+  {
+    manifest: 'https://gpt.domatron.com/.well-known/ai-plugin.json',
+    path: 'domatron',
+    tags: ['domain', 'search'],
+  },
+  {
+    manifest: 'https://nba-gpt-prod.onrender.com/.well-known/ai-plugin.json',
+    path: 'nba-stats',
+    tags: ['sports', 'basketball', 'nba'],
+  },
 ];
 
 export default PluginList;
