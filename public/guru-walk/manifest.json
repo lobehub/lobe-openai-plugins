@@ -1,0 +1,18 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "dev@guruwalk.com",
+  "description_for_human": "The best free tour guides in the world are here.",
+  "description_for_model": "Plugin for the management of a platform of Free Walking Tour Guides with a worldwide offer.",
+  "legal_info_url": "https://www.guruwalk.com/terms/legal_notice",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/logo.webp",
+  "name_for_human": "GuruWalk",
+  "name_for_model": "todo",
+  "schema_version": "v1"
+}

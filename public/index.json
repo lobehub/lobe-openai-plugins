@@ -286,6 +286,110 @@
         "title": "Questmate Forms"
       },
       "schemaVersion": 1
+    },
+    {
+      "author": "maila",
+      "homepage": "https://scholarly.maila.ai",
+      "identifier": "scholarly",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/scholarly/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/scholarly/logo.webp",
+        "description": "Scholarly is an AI-powered search engine for exploring scientific literature.",
+        "tags": ["scientific-literature", "search"],
+        "title": "Scholarly"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "litmaps",
+      "homepage": "https://api.litmaps.com",
+      "identifier": "litmaps",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/litmaps/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/litmaps/logo.webp",
+        "description": "Get help exploring the scientific literature. Find relevant papers and generate mindmaps of the literature.",
+        "tags": ["scientific-literature", "search"],
+        "title": "Litmaps"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "txyz",
+      "homepage": "https://txyz.ai",
+      "identifier": "ResearchAI",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/txyz/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/txyz/logo.webp",
+        "description": "Explore the universe of research. Search and compare papers, and answer questions.",
+        "tags": ["research-paper", "search"],
+        "title": "txyz.ai"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "guruwalk",
+      "homepage": "https://www.guruwalk.com",
+      "identifier": "todo",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/logo.webp",
+        "description": "The best free tour guides in the world are here.",
+        "tags": ["travel", "guides"],
+        "title": "GuruWalk"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "travelmyth",
+      "homepage": "https://www.travelmyth.com",
+      "identifier": "travelmyth",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/travelmyth/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/travelmyth/logo.webp",
+        "description": "Unleash personalized hotel search with Travelmyth, offering 60 unique categories for the perfect match.",
+        "tags": ["travel", "hotel", "search"],
+        "title": "Travelmyth"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "beta3",
+      "homepage": "https://earthquake.beta3.dev",
+      "identifier": "earthquake",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/earthquake/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/earthquake/logo.webp",
+        "description": "Get latest earthquake information.",
+        "tags": ["earthquake", "utilities"],
+        "title": "Earthquake Info"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "domatron",
+      "homepage": "https://gpt.domatron.com",
+      "identifier": "domatron",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/domatron/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/domatron/logo.webp",
+        "description": "Find available, brandable .com domain names for your business businesses.",
+        "tags": ["domain", "search"],
+        "title": "Domatron Domains"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "onrender",
+      "homepage": "https://nba-gpt-prod.onrender.com",
+      "identifier": "nba_stats",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/logo.webp",
+        "description": "Find and analyze basketball stats from various databases of games, players, teams, and play-by-plays.",
+        "tags": ["sports", "basketball", "nba"],
+        "title": "Basketball Stats"
+      },
+      "schemaVersion": 1
     }
   ]
 }

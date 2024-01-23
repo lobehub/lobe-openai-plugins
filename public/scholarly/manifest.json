@@ -1,0 +1,18 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/scholarly/openapi.yaml",
+    "has_user_authentication": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "kevin@maila.ai",
+  "description_for_human": "Scholarly is an AI-powered search engine for exploring scientific literature.",
+  "description_for_model": "Scholarly is a search engine for finding summaries of research papers.",
+  "legal_info_url": "https://scholarly.maila.ai/legal",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/scholarly/logo.webp",
+  "name_for_human": "Scholarly",
+  "name_for_model": "scholarly",
+  "schema_version": "v1"
+}

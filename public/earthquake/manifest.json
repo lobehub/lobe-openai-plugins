@@ -1,0 +1,18 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/earthquake/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "interskh@gmail.com",
+  "description_for_human": "Get latest earthquake information.",
+  "description_for_model": "Get latest earthquake information.",
+  "legal_info_url": "http://earthquake.beta3.dev/legal",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/earthquake/logo.webp",
+  "name_for_human": "Earthquake Info",
+  "name_for_model": "earthquake",
+  "schema_version": "v1"
+}

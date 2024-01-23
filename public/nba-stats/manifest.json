@@ -1,0 +1,17 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/openapi.yaml"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "team@caesarhq.com",
+  "description_for_human": "Find and analyze basketball stats from various databases of games, players, teams, and play-by-plays.",
+  "description_for_model": "Retrieve NBA and basketball stats. Use it whenever player or team stats are needed.",
+  "legal_info_url": "https://basketballstatsai.com/tos",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/logo.webp",
+  "name_for_human": "Basketball Stats",
+  "name_for_model": "nba_stats",
+  "schema_version": "v1"
+}

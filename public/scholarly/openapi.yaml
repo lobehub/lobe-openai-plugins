@@ -1,0 +1,89 @@
+openapi: 3.1.0
+info:
+  title: Scholarly
+  description: An AI-powered Scholar Search Engine designed to search for the latest research papers.
+  version: 1.0.3
+  contact:
+    email: kevin@maila.ai
+servers:
+  - url: https://scholarly.maila.ai
+paths:
+  /search:
+    post:
+      operationId: searchPost
+      summary: Search for scientific research papers and fetch their metadata.
+      description: |
+        Scholarly uses the provided queries to return search results, which include the title, summary, abstract, URL, publication date, and citation count of each paper.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                  description: The search query, which can consist of one or more search terms.
+                  example: effects of climate change on polar bears
+                semanticQuery:
+                  type: string
+                  description: The semantic query, which can consist of one or more academic terms.
+                  example: polar bear conservation climate change
+                keyTerms:
+                  type: string
+                  description: The key terms that are specific to the paper.
+                  example: polar bear, climate change
+              required:
+                - query
+                - semanticQuery
+                - keyTerms
+
+      responses:
+        "200":
+          description: Operation successful.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    title:
+                      type: string
+                      description: The title of the paper.
+                    summaryOrAbstract:
+                      type: string
+                      description: The summary or abstract of the paper.
+                    url:
+                      type: string
+                      description: The URL of the paper.
+                    publicationDate:
+                      type: string
+                      description: The publication date of the paper.
+                    citationCount:
+                      type: integer
+                      description: The citation count of the paper.
+        "400":
+          description: Bad request.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    description: Error message.
+                example:
+                  error: No query provided.
+        "default":
+          description: Error occurred while fetching search results.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    description: Error message.
+                example:
+                  error: Error occurred while fetching search results.
