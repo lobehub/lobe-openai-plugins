@@ -390,6 +390,32 @@
         "title": "Basketball Stats"
       },
       "schemaVersion": 1
+    },
+    {
+      "author": "maila",
+      "homepage": "https://vcaption.maila.ai",
+      "identifier": "VideoCaptions",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/video-captions/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/video-captions/logo.webp",
+        "description": "Convert Youtube links into transcribed text, enable asking questions, create chapters, and summarize its content.",
+        "tags": ["video-to-text", "youtube"],
+        "title": "Video Captions"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "glarity",
+      "homepage": "https://glarity.app",
+      "identifier": "Video_summary",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/video-summary/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/video-summary/logo.webp",
+        "description": "Summarize YouTube video highlights. Generate summaries from YouTube video URLs.",
+        "tags": ["video-to-text", "youtube"],
+        "title": "Video Summary"
+      },
+      "schemaVersion": 1
     }
   ]
 }
