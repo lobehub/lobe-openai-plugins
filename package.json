@@ -49,7 +49,7 @@
     "prettier": "^3",
     "remark": "^14",
     "remark-cli": "^11",
-    "stylelint": "^15",
+    "sharp": "^0.33"
     "typescript": "^5",
     "url-join": "^5"
   }
