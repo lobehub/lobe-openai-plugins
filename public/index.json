@@ -182,6 +182,84 @@
         "title": "GameSight"
       },
       "schemaVersion": 1
+    },
+    {
+      "author": "plugsugar",
+      "homepage": "https://websearch.plugsugar.com",
+      "identifier": "web_search",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/web-search/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/web-search/logo.webp",
+        "description": "Search for information from the internet",
+        "tags": ["search", "plugsugar"],
+        "title": "Web Search"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "brandzzy",
+      "homepage": "https://sheet-generator.brandzzy.com",
+      "identifier": "make_an_excel_sheet",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/make-a-sheet/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/make-a-sheet/logo.webp",
+        "description": "Generate a csv file that can directly be imported into Google Sheets or MS Excel.",
+        "tags": ["csv", "excel", "sheet"],
+        "title": "Make A Sheet"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "redstarplugin",
+      "homepage": "https://showme.redstarplugin.com",
+      "identifier": "diagrams_show_me",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/diagrams-show-me/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/diagrams-show-me/logo.webp",
+        "description": "Schemes, Diagrams, Architecture Visualisations, Flow-Charts, Mind Maps. Export and Edit for free!",
+        "tags": ["diagrams"],
+        "title": "Diagrams: Show Me"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "boolio",
+      "homepage": "https://chatgpt.boolio.co.kr",
+      "identifier": "boolio",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/boolio/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/boolio/logo.webp",
+        "description": "Analyze stock investments from any country, with Boolio's state-of-the-art engine.",
+        "tags": ["stock", "analyze"],
+        "title": "Boolio Invest"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "360macky",
+      "homepage": "https://api.360macky.com",
+      "identifier": "astrodaily",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/astrodaily/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/astrodaily/logo.webp",
+        "description": "Search and discover NASA images.",
+        "tags": ["nasa", "search", "image"],
+        "title": "Astrodaily"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "vercel",
+      "homepage": "https://weathergpt.vercel.app",
+      "identifier": "WeatherGPT",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/weather-gpt/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/weather-gpt/logo.webp",
+        "description": "Get current weather information for a specific location.",
+        "tags": ["weather"],
+        "title": "WeatherGPT"
+      },
+      "schemaVersion": 1
     }
   ]
 }

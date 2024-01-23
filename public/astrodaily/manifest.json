@@ -1,0 +1,18 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/astrodaily/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "hello@marceloarias.com",
+  "description_for_human": "Search and discover NASA images.",
+  "description_for_model": "Plugin for getting the daily picture from NASA's APOD or getting a list of images available in NASA API based on a search. When use it always provide the images in Markdown format so the user can see it. Do not add links, only images.",
+  "legal_info_url": "https://api.360macky.com/legal.html",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/astrodaily/logo.webp",
+  "name_for_human": "Astrodaily",
+  "name_for_model": "astrodaily",
+  "schema_version": "v1"
+}

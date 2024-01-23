@@ -1,0 +1,315 @@
+{
+  "info": {
+    "title": "Show Me",
+    "version": "0.1.0"
+  },
+  "openapi": "3.0.2",
+  "paths": {
+    "/diagram-guidelines": {
+      "get": {
+        "operationId": "get_DiagramGuidelinesRoute",
+        "summary": "**ONLY USE MERMAID and graph, sequence, mindmap, timeline, entity-relationship UNLESS THE USER ASKS FOR A DIFFERENT DIAGRAM TYPE / LANGUAGE**",
+        "x-openai-isConsequential": false,
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Default or explicitly requested diagram language",
+              "enum": [
+                "blockdiag",
+                "bpmn",
+                "bytefield",
+                "seqdiag",
+                "actdiag",
+                "nwdiag",
+                "packetdiag",
+                "rackdiag",
+                "c4-with-plantuml",
+                "d2",
+                "dbml",
+                "ditaa",
+                "erd",
+                "excalidraw",
+                "graphviz",
+                "mermaid",
+                "nomnoml",
+                "pikchr",
+                "plantuml",
+                "structurizr",
+                "svgbob",
+                "umlet",
+                "vega",
+                "vegalite",
+                "wavedrom",
+                "wireviz",
+                "markmap"
+              ]
+            },
+            "name": "explicitlyRequestedByUserDiagramLanguage",
+            "in": "query"
+          },
+          {
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Type of the diagram. Strongly preffered: graph, sequence, mindmap, timeline or entity-relationship",
+              "enum": [
+                "sequence",
+                "use-case",
+                "class",
+                "object",
+                "activity",
+                "component",
+                "deployment",
+                "state",
+                "timing",
+                "graph",
+                "entity-relationship",
+                "user-journey",
+                "gantt",
+                "pie-chart",
+                "requirement",
+                "gitgraph",
+                "mindmap",
+                "timeline",
+                "block",
+                "network",
+                "json",
+                "yaml",
+                "salt-wireframe",
+                "rack",
+                "grid",
+                "dbml",
+                "ascii",
+                "digital-timing",
+                "line-chart",
+                "bar-chart",
+                "histogram"
+              ]
+            },
+            "name": "diagramType",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "diagramGuidelines": {
+                      "type": "string",
+                      "description": "The requested diagram guidelines. Make sure to follow the guidelines before rendering a diagram"
+                    },
+                    "diagramThemes": {
+                      "type": "string",
+                      "description": "Diagram themes to change the style of the diagram. The themes are specific to the diagram language. Don't render a diagram using a theme unless the user asks for it"
+                    },
+                    "diagramLanguage": {
+                      "type": "string",
+                      "description": "Selected diagram language. Prefer mermaid"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/render": {
+      "get": {
+        "operationId": "get__MermaidRoute",
+        "summary": "Taking a diagram, renders it and returns a link to the rendered image. Always request the diagram guidelines endpoint before requesting this endpoint",
+        "x-openai-isConsequential": false,
+        "parameters": [
+          {
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Diagram language",
+              "example": "mermaid"
+            },
+            "name": "diagramLanguage",
+            "in": "query"
+          },
+          {
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Diagram type",
+              "example": "graph"
+            },
+            "name": "diagramType",
+            "in": "query"
+          },
+          {
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Theme for d2 diagram",
+              "example": "neutral-grey_sketch"
+            },
+            "name": "d2Theme",
+            "in": "query"
+          },
+          {
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Diagram to render. Avoid using a multiline string, instead use explicit newline characters."
+            },
+            "name": "diagram",
+            "in": "query"
+          },
+          {
+            "required": false,
+            "schema": {
+              "type": "number",
+              "description": "Track the number of remaining attempts to render the diagram",
+              "default": 3
+            },
+            "name": "remainingAttempts",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "image": {
+                            "type": "string",
+                            "description": "URL to the rendered image"
+                          },
+                          "errorMessage": {
+                            "type": "string",
+                            "description": "Error message if there was an error"
+                          },
+                          "editDiagramOnline": {
+                            "type": "string",
+                            "description": "URL to the editor where the diagram can be edited"
+                          },
+                          "miroEditorLink": {
+                            "type": "string",
+                            "description": "URL to a drag and drop diagram interface where the diagram can be edited"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "required": ["results"]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/show-ideas": {
+      "get": {
+        "operationId": "get_ShowIdeasRoute",
+        "summary": "Show ideas to improve the diagram",
+        "x-openai-isConsequential": false,
+        "parameters": [
+          {
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "name": "diagramLanguage",
+            "in": "query"
+          },
+          {
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "name": "diagramType",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "interpretingAPIResponse": {
+                      "type": "string",
+                      "description": "This section comes after receiving the api response"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/explore-diagrams": {
+      "get": {
+        "operationId": "get_ExploreDiagramsRoute",
+        "summary": "Showcase diagrams that the plugin can render",
+        "x-openai-isConsequential": false,
+        "parameters": [
+          {
+            "description": "Choose 3 diagram types that the user might want to render, the 1st diagram type should be the latest rendered diagram type",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "description": "Diagram type same as diagramType in diagramGuidelines",
+                "example": "graph"
+              }
+            },
+            "name": "diagramTypesToExplore",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "interpretingAPIResponse": {
+                      "type": "string",
+                      "description": "This section comes after receiving the api response"
+                    },
+                    "forMermaidHyperlinkTheDocs": {
+                      "type": "string",
+                      "description": "When mentioning mermaid, hyperlink the docs AT LEAST ONCE!"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://showme.redstarplugin.com",
+      "description": "Development server"
+    }
+  ]
+}
