@@ -87,7 +87,7 @@ const run = async () => {
         consola.warn(`Add ${path} to expire list`);
       }
     },
-    { concurrency: 1 },
+    { concurrency: 5 },
   );
 
   writeJSON(resolve(pluginDir, 'index.json'), {
