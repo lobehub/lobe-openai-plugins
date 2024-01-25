@@ -3,7 +3,7 @@
   "plugins": [
     {
       "author": "orrenprunckun",
-      "homepage": "https://seo-plugin.orrenprunckun.com",
+      "homepage": {},
       "identifier": "SEO",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/seo/manifest.json",
       "meta": {
@@ -16,7 +16,7 @@
     },
     {
       "author": "savvytrader",
-      "homepage": "https://savvytrader.com",
+      "homepage": {},
       "identifier": "savvy_trader_ai",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/manifest.json",
       "meta": {
@@ -29,7 +29,7 @@
     },
     {
       "author": "askyourpdf",
-      "homepage": "https://plugin.askyourpdf.com",
+      "homepage": {},
       "identifier": "askyourpdf",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/ask-your-pdf/manifest.json",
       "meta": {
@@ -42,7 +42,7 @@
     },
     {
       "author": "assetovi",
-      "homepage": "https://assetovi.com",
+      "homepage": {},
       "identifier": "assetOvi",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/asset-ovi/manifest.json",
       "meta": {
@@ -55,7 +55,7 @@
     },
     {
       "author": "efficiency",
-      "homepage": "https://chat-plugin-giphy.efficiency.tools",
+      "homepage": {},
       "identifier": "GifApi",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/gif-search/manifest.json",
       "meta": {
@@ -68,7 +68,7 @@
     },
     {
       "author": "say-apps",
-      "homepage": "https://twitter.say-apps.com",
+      "homepage": {},
       "identifier": "socialsearch",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/social-search/manifest.json",
       "meta": {
@@ -81,7 +81,7 @@
     },
     {
       "author": "onrender",
-      "homepage": "https://stack-overflow-search.onrender.com",
+      "homepage": {},
       "identifier": "stackoverflow_plus",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/stackoverflow/manifest.json",
       "meta": {
@@ -94,7 +94,7 @@
     },
     {
       "author": "getchange",
-      "homepage": "https://api.getchange.io",
+      "homepage": {},
       "identifier": "nonprofits",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/getchange/manifest.json",
       "meta": {
@@ -107,7 +107,7 @@
     },
     {
       "author": "feednews",
-      "homepage": "https://cryptoplugin.feednews.com",
+      "homepage": {},
       "identifier": "TokenInsights",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/token-insights/manifest.json",
       "meta": {
@@ -120,7 +120,7 @@
     },
     {
       "author": "swap",
-      "homepage": "https://app.swap.net",
+      "homepage": {},
       "identifier": "nftguru",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/nftguru/manifest.json",
       "meta": {
@@ -133,7 +133,7 @@
     },
     {
       "author": "onrender",
-      "homepage": "https://llamawrapper-prod.onrender.com",
+      "homepage": {},
       "identifier": "defillama",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/defillama/manifest.json",
       "meta": {
@@ -146,7 +146,7 @@
     },
     {
       "author": "mintbase",
-      "homepage": "https://search-ai.mintbase.xyz",
+      "homepage": {},
       "identifier": "mintbasesearch",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/mintbasesearch/manifest.json",
       "meta": {
@@ -159,7 +159,7 @@
     },
     {
       "author": "speak",
-      "homepage": "https://speak.com",
+      "homepage": {},
       "identifier": "speak",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/speak/manifest.json",
       "meta": {
@@ -172,7 +172,7 @@
     },
     {
       "author": "tapapis",
-      "homepage": "https://openai.tapapis.com",
+      "homepage": {},
       "identifier": "GameSight",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/game-sight/manifest.json",
       "meta": {
@@ -185,7 +185,7 @@
     },
     {
       "author": "plugsugar",
-      "homepage": "https://websearch.plugsugar.com",
+      "homepage": {},
       "identifier": "web_search",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/web-search/manifest.json",
       "meta": {
@@ -198,7 +198,7 @@
     },
     {
       "author": "brandzzy",
-      "homepage": "https://sheet-generator.brandzzy.com",
+      "homepage": {},
       "identifier": "make_an_excel_sheet",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/make-a-sheet/manifest.json",
       "meta": {
@@ -211,7 +211,7 @@
     },
     {
       "author": "redstarplugin",
-      "homepage": "https://showme.redstarplugin.com",
+      "homepage": {},
       "identifier": "diagrams_show_me",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/diagrams-show-me/manifest.json",
       "meta": {
@@ -224,7 +224,7 @@
     },
     {
       "author": "boolio",
-      "homepage": "https://chatgpt.boolio.co.kr",
+      "homepage": {},
       "identifier": "boolio",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/boolio/manifest.json",
       "meta": {
@@ -237,7 +237,7 @@
     },
     {
       "author": "360macky",
-      "homepage": "https://api.360macky.com",
+      "homepage": {},
       "identifier": "astrodaily",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/astrodaily/manifest.json",
       "meta": {
@@ -249,8 +249,8 @@
       "schemaVersion": 1
     },
     {
-      "author": "weathergpt",
-      "homepage": "https://weathergpt.vercel.app",
+      "author": "steven-tey",
+      "homepage": "https://github.com/steven-tey/weathergpt",
       "identifier": "WeatherGPT",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/weather-gpt/manifest.json",
       "meta": {
@@ -262,8 +262,8 @@
       "schemaVersion": 1
     },
     {
-      "author": "chat-gpt-github-stat-plugin",
-      "homepage": "https://chat-gpt-github-stat-plugin.vercel.app",
+      "author": "yunwei37",
+      "homepage": "https://github.com/yunwei37/ChatGPT-github-stat-plugin",
       "identifier": "gitUserRepoStats",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/github-stats/manifest.json",
       "meta": {
@@ -276,7 +276,7 @@
     },
     {
       "author": "questmate",
-      "homepage": "https://chatgpt-plugin.questmate.com",
+      "homepage": {},
       "identifier": "questmate",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/questmate/manifest.json",
       "meta": {
@@ -289,7 +289,7 @@
     },
     {
       "author": "maila",
-      "homepage": "https://scholarly.maila.ai",
+      "homepage": {},
       "identifier": "scholarly",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/scholarly/manifest.json",
       "meta": {
@@ -302,7 +302,7 @@
     },
     {
       "author": "litmaps",
-      "homepage": "https://api.litmaps.com",
+      "homepage": {},
       "identifier": "litmaps",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/litmaps/manifest.json",
       "meta": {
@@ -315,7 +315,7 @@
     },
     {
       "author": "txyz",
-      "homepage": "https://txyz.ai",
+      "homepage": {},
       "identifier": "ResearchAI",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/txyz/manifest.json",
       "meta": {
@@ -328,7 +328,7 @@
     },
     {
       "author": "guruwalk",
-      "homepage": "https://www.guruwalk.com",
+      "homepage": {},
       "identifier": "todo",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/manifest.json",
       "meta": {
@@ -341,7 +341,7 @@
     },
     {
       "author": "travelmyth",
-      "homepage": "https://www.travelmyth.com",
+      "homepage": {},
       "identifier": "travelmyth",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/travelmyth/manifest.json",
       "meta": {
@@ -354,7 +354,7 @@
     },
     {
       "author": "beta3",
-      "homepage": "https://earthquake.beta3.dev",
+      "homepage": {},
       "identifier": "earthquake",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/earthquake/manifest.json",
       "meta": {
@@ -367,7 +367,7 @@
     },
     {
       "author": "domatron",
-      "homepage": "https://gpt.domatron.com",
+      "homepage": {},
       "identifier": "domatron",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/domatron/manifest.json",
       "meta": {
@@ -380,7 +380,7 @@
     },
     {
       "author": "onrender",
-      "homepage": "https://nba-gpt-prod.onrender.com",
+      "homepage": {},
       "identifier": "nba_stats",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/manifest.json",
       "meta": {
@@ -393,7 +393,7 @@
     },
     {
       "author": "maila",
-      "homepage": "https://vcaption.maila.ai",
+      "homepage": {},
       "identifier": "VideoCaptions",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/video-captions/manifest.json",
       "meta": {
@@ -406,7 +406,7 @@
     },
     {
       "author": "glarity",
-      "homepage": "https://glarity.app",
+      "homepage": {},
       "identifier": "Video_summary",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/video-summary/manifest.json",
       "meta": {
