@@ -90,11 +90,9 @@ const run = async () => {
 
         consola.success(`Synced ${path}`);
 
-        const domain = manifestJson.legal_info_url || manifest;
-
         return {
-          author: author || getAuthor(domain),
-          homepage: homepage || manifestJson.legal_info_url || getDomainFromUrl(domain),
+          author: author || getAuthor(manifest),
+          homepage: homepage || getDomainFromUrl(manifest),
           identifier: manifestJson.name_for_model,
           manifest: urlJoin(BASE_URL, path, 'manifest.json'),
           meta: {
