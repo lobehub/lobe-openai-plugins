@@ -1,0 +1,18 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/diceroller/openapi.json",
+    "is_user_authenticated": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "mageworksstudio@gmail.com",
+  "description_for_human": "App for rolling dice using the d20 or Fate/Fudge systems.",
+  "description_for_model": "App for rolling dice using the d20 or Fate/Fudge systems.",
+  "legal_info_url": "https://dmtoolkit-magejosh.replit.app/legal",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/diceroller/logo.webp",
+  "name_for_human": "DM Tool Kit",
+  "name_for_model": "diceroller",
+  "schema_version": "v1"
+}

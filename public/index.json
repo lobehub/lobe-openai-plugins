@@ -416,6 +416,227 @@
         "title": "Video Summary"
       },
       "schemaVersion": 1
+    },
+    {
+      "author": "accessplugins",
+      "homepage": "https://sheets.accessplugins.com",
+      "identifier": "access_google_sheets",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/access-google-sheets/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/access-google-sheets/logo.webp",
+        "description": "Ask your Google Sheets questions & chat with excel. Enter Google Drive link to start!",
+        "tags": ["google", "sheets", "excel"],
+        "title": "Access Google Sheet"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "azurewebsites",
+      "homepage": "https://aladin-search-book.azurewebsites.net",
+      "identifier": "AladinSearchBooks",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/aladin-search-book/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/aladin-search-book/logo.webp",
+        "description": "Search for books on Aladin.",
+        "tags": ["book", "search"],
+        "title": "AladinBooks"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "prod",
+      "homepage": "https://api.prod.bardeen.ai",
+      "identifier": "Bardeen",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/bardeen/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/bardeen/logo.webp",
+        "description": "Create and run automations on the most popular web services.",
+        "tags": ["workflow", "automatic"],
+        "title": "Bardeen"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "pulsetic",
+      "homepage": "https://api.pulsetic.com",
+      "identifier": "uptime",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/uptime/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/uptime/logo.webp",
+        "description": "Insert your website URL to check the availability. Pulsetic tests the uptime, availability & performance of a website.",
+        "tags": ["website", "performance", "test"],
+        "title": "Check Website Down"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "magejosh",
+      "homepage": "https://dmtoolkit.magejosh.repl.co",
+      "identifier": "diceroller",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/diceroller/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/diceroller/logo.webp",
+        "description": "App for rolling dice using the d20 or Fate/Fudge systems.",
+        "tags": ["game", "dice", "dm"],
+        "title": "DM Tool Kit"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "filtir",
+      "homepage": "https://app.filtir.com",
+      "identifier": "factcheck",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/factcheck/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/factcheck/logo.webp",
+        "description": "Verify the provided text using external sources.",
+        "tags": ["check", "fact"],
+        "title": "Filtir"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "aigenprompt",
+      "homepage": "https://imgser.aigenprompt.com",
+      "identifier": "ImageSearch",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/image-search/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/image-search/logo.webp",
+        "description": "Discover complimentary images to enhance your generated article or to highlight specific paragraphs from Unsplash.",
+        "tags": ["image", "search"],
+        "title": "ImageSearch"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "customplugin",
+      "homepage": "https://levinbot.customplugin.ai",
+      "identifier": "levinbot",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/levinbot/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/levinbot/logo.webp",
+        "description": "Search research papers and transcripts of talks from Dr. Michael Levin's Lab.",
+        "tags": ["research-paper", "search"],
+        "title": "LevinBot"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "mixerbox",
+      "homepage": "https://podcasts.mixerbox.com",
+      "identifier": "MixerBox_Podcasts",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/mixer-box-podcasts/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/mixer-box-podcasts/logo.webp",
+        "description": "Search podcasts easily! Explore podcasts covering society, sports, business, news, music, and more!",
+        "tags": ["podcast", "search"],
+        "title": "MixerBox Podcasts"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "mixerbox",
+      "homepage": "https://translate.mixerbox.com",
+      "identifier": "MixerBox_Translate_AI_language_tutor",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/mixer-box-translate-ai-language-tutor/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/mixer-box-translate-ai-language-tutor/logo.webp",
+        "description": "Translate any language right away! Learn foreign languages easily by conversing with AI tutors!",
+        "tags": ["translate"],
+        "title": "MixerBox Translate"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "mixerbox",
+      "homepage": "https://weather.mixerbox.com",
+      "identifier": "MixerBox_Weather",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/mixer-box-weather/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/mixer-box-weather/logo.webp",
+        "description": "Get real-time worldwide weather updates & forecasts, instantly!",
+        "tags": ["weather"],
+        "title": "MixerBox Weather"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "portfoliometa",
+      "homepage": "https://portfoliometa.com",
+      "identifier": "StockData",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/stock-data/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/stock-data/logo.webp",
+        "description": "Analyze stocks and get comprehensive real-time investment data and analytics.",
+        "tags": ["stock"],
+        "title": "PortfolioMeta"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "webfx",
+      "homepage": "https://webfx.ai",
+      "identifier": "seo_assistant",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/seo-assistant/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/seo-assistant/logo.webp",
+        "description": "The SEO Assistant can generate search engine keyword information in order to aid the creation of content.",
+        "tags": ["seo", "keyword"],
+        "title": "SEO Assistant"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "shoppingtools",
+      "homepage": "https://shoppingtools.biz",
+      "identifier": "ShoppingTools",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/shopping-tools/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/shopping-tools/logo.webp",
+        "description": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
+        "tags": ["shopping", "eBay", "AliExpress", "coupons"],
+        "title": "Shopping tools"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "automateyournetwork",
+      "homepage": "https://space.automateyournetwork.ca",
+      "identifier": "Space",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/space/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/space/logo.webp",
+        "description": "Space data including NASA.",
+        "tags": ["space", "nasa"],
+        "title": "Space"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "azurewebsites",
+      "homepage": "https://gptfineart.azurewebsites.net",
+      "identifier": "ssfineart",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/ssfineart/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/ssfineart/logo.webp",
+        "description": "A research assistant that returns a set of URI's to examples of fine art requested by user.",
+        "tags": ["art", "fineart", "search"],
+        "title": "SuperStock Fine Art"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "pluginboost",
+      "homepage": "https://guitarchords.pluginboost.com",
+      "identifier": "uberchord",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/uberchord/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/uberchord/logo.webp",
+        "description": "Find guitar chord diagrams by specifying the chord name.",
+        "tags": ["music", "guitar", "search"],
+        "title": "Uberchord"
+      },
+      "schemaVersion": 1
     }
   ]
 }

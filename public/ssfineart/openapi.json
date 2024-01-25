@@ -1,0 +1,110 @@
+{
+  "info": {
+    "title": "SuperStock ChatGPT Plug",
+    "description": "A plugin that returns a set of URI's to examples of fine art to support research.",
+    "version": "v1"
+  },
+  "openapi": "3.0.1",
+  "paths": {
+    "/": {
+      "get": {
+        "operationId": "getHtml",
+        "summary": "Get the HTML content for the home page",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string",
+                  "description": "HTML content for the home page."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "operationId": "search",
+        "summary": "Perform a search for fine art",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "description": "The search query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "url": {
+                            "type": "string",
+                            "description": "The URL of the asset"
+                          },
+                          "title": {
+                            "type": "string",
+                            "description": "The title of the asset"
+                          },
+                          "dateCreated": {
+                            "type": "string",
+                            "description": "The creation date of the asset"
+                          },
+                          "author": {
+                            "type": "string",
+                            "description": "The author of the asset"
+                          },
+                          "webenabled": {
+                            "type": "boolean",
+                            "description": "Whether the asset is enabled for web"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "description": "The search results"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string",
+                      "description": "The error message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://gptfineart.azurewebsites.net"
+    }
+  ]
+}

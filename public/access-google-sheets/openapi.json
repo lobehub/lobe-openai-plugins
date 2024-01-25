@@ -1,0 +1,96 @@
+{
+  "info": {
+    "title": "Access Sheets Plugin API",
+    "description": "A plugin API for accessing Google Sheets data from a specific URL provided by the user",
+    "version": "1.0.0"
+  },
+  "openapi": "3.0.2",
+  "paths": {
+    "/parse-url": {
+      "get": {
+        "summary": "Parse URL",
+        "description": "Fetches the content of a given URL provided by the user",
+        "operationId": "parse_url_get",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "description": "URL of the google drive or pdf link to be parsed",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "chat_context",
+            "in": "query",
+            "description": "Chat context for parsing the URL",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "text": {
+                      "type": "string",
+                      "description": "Text content of the file"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string",
+                      "description": "Error message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string",
+                      "description": "Error message"
+                    },
+                    "details": {
+                      "type": "string",
+                      "description": "Error details"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://sheets.accessplugins.com"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "components": {
+    "schemas": {
+      "getUptime": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "object",
+            "properties": {
+              "location": {
+                "type": "string",
+                "description": "The location from where the request was made."
+              },
+              "status": {
+                "type": "string",
+                "description": "The status of the url."
+              },
+              "response_time": {
+                "type": "number",
+                "description": "The response time of the request."
+              },
+              "response_code": {
+                "type": "integer",
+                "description": "The response code of the request."
+              }
+            }
+          }
+        }
+      },
+      "429error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "string",
+            "description": "The error if the user has made too many requests."
+          }
+        }
+      },
+      "400error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "string",
+            "description": "The error if the user has provided an invalid URL."
+          }
+        }
+      }
+    }
+  },
+  "info": {
+    "title": "Check Website Down",
+    "description": "Insert your website URL to check the availability.",
+    "version": "v1"
+  },
+  "openapi": "3.0.1",
+  "paths": {
+    "/getUptime": {
+      "get": {
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "description": "The url",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "operationId": "getUptime",
+        "summary": "Get the url uptime",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/getUptime"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/400error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/429error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.pulsetic.com"
+    }
+  ]
+}

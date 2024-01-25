@@ -1,0 +1,489 @@
+{
+  "info": {
+    "title": "Space Information Plugin API",
+    "version": "1.0.0"
+  },
+  "openapi": "3.0.1",
+  "paths": {
+    "/Interational_Space_Station_Location/": {
+      "get": {
+        "operationId": "getISSLocation",
+        "summary": "Get International Space Station Location JSON",
+        "description": "Retrieve the International Space Station Location JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest International Space Station Location API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/People_In_Space/": {
+      "get": {
+        "operationId": "getPeopleInSpace",
+        "summary": "Get People In Space JSON",
+        "description": "Retrieve the People In Space JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest People In Space API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Weather_On_Mars/": {
+      "get": {
+        "operationId": "getWeatherOnMars",
+        "summary": "Get Weather On Mars JSON",
+        "description": "Retrieve the Weather On Mars JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Weather On Mars API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Astronomy_Picture_Of_The_Day/": {
+      "get": {
+        "operationId": "getAstronomyPictureOfTheDay",
+        "summary": "Get Astronomy Picture Of The Day JSON",
+        "description": "Retrieve the Astronomy Picture Of The Day JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Astronomy Picture Of The Day API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Asteroids_Near_Earth_Objects/": {
+      "get": {
+        "operationId": "getAsteroidsNearEarthObjects",
+        "summary": "Get Asteroids Near Earth Objects JSON",
+        "description": "Retrieve the Asteroids Near Earth Objects JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Asteroids Near Earth Objects API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Coronal_Mass_Ejections/": {
+      "get": {
+        "operationId": "getCoronalMassEjections",
+        "summary": "Get Coronal Mass Ejections JSON",
+        "description": "Retrieve the Coronal Mass Ejections JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Coronal Mass Ejections API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Geomagnetic_Storm/": {
+      "get": {
+        "operationId": "getGeomagneticStorm",
+        "summary": "Get Geomagnetic Storm JSON",
+        "description": "Retrieve the Geomagnetic Storm JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Geomagnetic Storm API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Interplanetary_Shock/": {
+      "get": {
+        "operationId": "getInterplanetaryShock",
+        "summary": "Get Interplanetary Shock JSON",
+        "description": "Retrieve the Interplanetary Shock JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Interplanetary Shock API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Solar_Flare/": {
+      "get": {
+        "operationId": "getSolarFlare",
+        "summary": "Get Solar Flare JSON",
+        "description": "Retrieve the Solar Flare JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Solar Flare API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Solar_Energetic_Particle/": {
+      "get": {
+        "operationId": "getSolarEnergeticParticle",
+        "summary": "Get Solar Energetic Particle JSON",
+        "description": "Retrieve the Solar Energetic Particle JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Solar Energetic Particle API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Radiation_Belt_Enhancement/": {
+      "get": {
+        "operationId": "getRadiationBeltEnhancement",
+        "summary": "Get Radiation Belt Enhancement JSON",
+        "description": "Retrieve the Radiation Belt Enhancement JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Radiation Belt Enhancement API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/High_Speed_Streams/": {
+      "get": {
+        "operationId": "getHighSpeedStreams",
+        "summary": "Get High Speed Streams JSON",
+        "description": "Retrieve the High Speed Streams JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest High Speed Streams API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WSA_Enlil_Solar_Wind_Prediction/": {
+      "get": {
+        "operationId": "getWSAEnlilSolarWindPrediction",
+        "summary": "Get WSA Enlil Solar Wind Prediction JSON",
+        "description": "Retrieve the WSA Enlil Solar Wind Prediction JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest WSA Enlil Solar Wind Prediction API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/NASA_Notifications/": {
+      "get": {
+        "operationId": "getNASANotifications",
+        "summary": "Get NASA Notifications JSON",
+        "description": "Retrieve the NASA Notifications JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Notifications API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Natural_Events/": {
+      "get": {
+        "operationId": "getNaturalEvents",
+        "summary": "Get Natural Events JSON",
+        "description": "Retrieve the Natural Events JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Natural Events API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Earth_Polychromatic_Imaging_Camera/": {
+      "get": {
+        "operationId": "getEarthPolychromaticImagingCamera",
+        "summary": "Get Earth Polychromatic Imaging Camera JSON",
+        "description": "Retrieve the Earth Polychromatic Imaging Camera JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Natural Events API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Known_Celestial_Body_Count/": {
+      "get": {
+        "operationId": "getKnownCelestialBodyCount",
+        "summary": "Get Known Celestial Body Count JSON",
+        "description": "Retrieve the Known Celestial Body Count JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Known Celestial Body Count API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Planets/": {
+      "get": {
+        "operationId": "getPlanets",
+        "summary": "Get Planets JSON",
+        "description": "Retrieve the Planets JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Planets API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Rovers/": {
+      "get": {
+        "operationId": "getRovers",
+        "summary": "Get Rovers JSON",
+        "description": "Retrieve the Rovers JSON data from the API.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "networkData": {
+                      "type": "object",
+                      "description": "The latest Rovers API JSON output"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://space.automateyournetwork.ca"
+    }
+  ]
+}

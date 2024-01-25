@@ -1,0 +1,18 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/image-search/openapi.json",
+    "is_user_authenticated": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "roberts@aigenprompt.com",
+  "description_for_human": "Discover complimentary images to enhance your generated article or to highlight specific paragraphs from Unsplash.",
+  "description_for_model": "Find images and display each image with title using the following markdown format: [title] \n ![the image](url)  [Download Raw](download_url)  Photo by [author_name](author_website) on [Unsplash](unsplash_website) \n. Also display related link using the following format: [related_title](related_url).",
+  "legal_info_url": "https://imgser.aigenprompt.com/legal-info.txt",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/image-search/logo.webp",
+  "name_for_human": "ImageSearch",
+  "name_for_model": "ImageSearch",
+  "schema_version": "v1"
+}

@@ -1,0 +1,18 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/bardeen/openapi.json",
+    "is_user_authenticated": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "support+chatgpt@bardeen.ai",
+  "description_for_human": "Create and run automations on the most popular web services.",
+  "description_for_model": "Create and run automations on the most popular web services. You can send and receive emails and messages, manage meetings, create and update data in Google Spreadsheet, Notion, Airtable, etc., scrape data on the web, and more.",
+  "legal_info_url": "http://bardeen.ai/privacy-policy",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/bardeen/logo.webp",
+  "name_for_human": "Bardeen",
+  "name_for_model": "Bardeen",
+  "schema_version": "v1"
+}

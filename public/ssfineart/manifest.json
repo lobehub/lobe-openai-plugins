@@ -1,0 +1,17 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/ssfineart/openapi.json"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "rick@superstock.com",
+  "description_for_human": "A research assistant that returns a set of URI's to examples of fine art requested by user.",
+  "description_for_model": "A research assistant that returns a set of URI's to examples of fine art requested by user.",
+  "legal_info_url": "https://www.superstock.com/home/licensing",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/ssfineart/logo.webp",
+  "name_for_human": "SuperStock Fine Art",
+  "name_for_model": "ssfineart",
+  "schema_version": "v1"
+}

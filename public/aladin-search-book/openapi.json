@@ -1,0 +1,256 @@
+{
+  "components": {
+    "schemas": {
+      "Book": {
+        "type": "object",
+        "properties": {
+          "itemId": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string",
+            "description": "Book Title"
+          },
+          "link": {
+            "type": "string",
+            "description": "Book purchase link"
+          },
+          "author": {
+            "type": "string",
+            "description": "Author"
+          },
+          "pubDate": {
+            "type": "string",
+            "description": "Publication Date"
+          },
+          "description": {
+            "type": "string",
+            "description": "Book description"
+          },
+          "publisher": {
+            "type": "string",
+            "description": "Publisher"
+          },
+          "cover": {
+            "type": "string",
+            "description": "Book Image"
+          },
+          "salesPoint": {
+            "type": "integer",
+            "description": "Sales Volume"
+          },
+          "priceSales": {
+            "type": "integer",
+            "description": "SaelsPrice"
+          },
+          "priceStandard": {
+            "type": "integer",
+            "description": "SupplyPrice"
+          }
+        }
+      },
+      "SearchItemRequest": {
+        "type": "object",
+        "properties": {
+          "userMessage": {
+            "type": "string",
+            "description": "The entire message sent by user to ChatGPT.",
+            "required": true
+          },
+          "query": {
+            "type": "string",
+            "description": "Receive results according to the query type."
+          },
+          "queryType": {
+            "type": "string",
+            "enum": ["keyword", "title", "author", "publisher"],
+            "default": "keyword",
+            "description": "Query type, the query should change depending on this type value. * `keyword` - Book title or author name * `title` - Book title * `author` - Author * `publisher` - Publisher\n"
+          },
+          "orderby": {
+            "type": "string",
+            "enum": ["asc", "desc"],
+            "description": "Sort Order  * `asc` - Ascending * `desc` - Descending\n",
+            "default": "desc"
+          },
+          "sortType": {
+            "type": "string",
+            "enum": ["accuracy", "publishTime", "title", "salesPoint", "customerRating"],
+            "description": "SortType * `accuracy` - Relevance * `publishTime` - Publication Date * `title` - Title * `salesPoint` - Sales Volume * `customerRating` - Customer Rating \n",
+            "default": "accuracy"
+          },
+          "CategoryCode": {
+            "type": "string",
+            "enum": [
+              "90861",
+              "90831",
+              "90832",
+              "90833",
+              "90834",
+              "127098",
+              "90835",
+              "90836",
+              "90837",
+              "90838",
+              "30177",
+              "90840",
+              "90841",
+              "90842",
+              "90843",
+              "106165",
+              "90844",
+              "90845",
+              "90846",
+              "90847",
+              "90848",
+              "90849",
+              "90850",
+              "90851",
+              "90852",
+              "90853",
+              "90854",
+              "90855",
+              "90856",
+              "90857",
+              "90858",
+              "90859",
+              "90860",
+              "25557"
+            ],
+            "description": "Category Code * `90861` - ELT/Language/Dictionary * `90831` - Home/Gardening/Interior * `90832` - Family/Relationship * `90833` - Health/Sports * `90834` - Architecture/Design * `127098` - Game/Toy * `90835` - Economics/Business * `90836` - Crafts/Hobbies/Collecting * `90837` - Education/Resources * `90838` - Technology/Engineering * `30177` - University textbook * `90840` - Comics * `90841` - Law * `90842` - Novel/Poem/Play * `90843` - Exam book * `106165` - Children * `90844` - Linguistics * `90845` - Essay * `90846` - Travel * `90847` - History * `90848` - Art/Pop culture * `90849` - Audiobook * `90850` - Cooking * `90851` - Humor * `90852` - Medicine * `90853` - Humanities/Social sciences * `90854` - Self-development * `90855` - Natural sciences * `90856` - Biography/Autobiography * `90857` - Religion/Meditation/Astrology * `90858` - Teenagers * `90859` - Computer * `90860` - Korea-related books * `25557` - Magazine\n"
+          }
+        }
+      },
+      "SearchItemResponse": {
+        "type": "object",
+        "properties": {
+          "status_code": {
+            "type": "integer"
+          },
+          "results": {
+            "type": "array",
+            "description": "If user ask a question in English, translate all responses text in English.",
+            "items": {
+              "$ref": "#/components/schemas/Book"
+            }
+          },
+          "EXTRA_INFORMATION_TO_ASSISTANT": {
+            "type": "string"
+          }
+        }
+      },
+      "ErrorResponse": {
+        "title": "Error Response",
+        "type": "object",
+        "properties": {
+          "status_code": {
+            "type": "integer"
+          },
+          "error_message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "info": {
+    "title": "Aladin Book Plugin",
+    "description": "Searches or recommends books for sale in the Aladdin community.",
+    "version": "1.0.0"
+  },
+  "openapi": "3.0.3",
+  "paths": {
+    "/search/books": {
+      "post": {
+        "operationId": "search_books",
+        "summary": "Search Books",
+        "description": "You can search for books according to the type of question and apply sorting criteria and order.If there is a CategoryCode but the query is empty, send it to \"/search/boooks/list/{list_type}\".",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchItemRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchItemResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Error Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search/books/list/{list_type}": {
+      "post": {
+        "operationId": "search_books_by_listType",
+        "description": "Searches for recently released new books or current bestsellers.",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "list_type",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": ["itemNewSpecial", "bestSeller"]
+            },
+            "description": "New books or bestseller * `itemNewSpecial` - New books * `bestSeller` - BestSeller\n"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchItemRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchItemResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Error Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://aladin-search-book.azurewebsites.net"
+    }
+  ]
+}
