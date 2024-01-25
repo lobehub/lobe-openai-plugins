@@ -259,6 +259,11 @@ const PluginList: PluginItem[] = [
     path: 'uberchord',
     tags: ['music', 'guitar', 'search'],
   },
+  {
+    manifest: 'https://medium.com/.well-known/ai-plugin.json',
+    path: 'medium',
+    tags: ['article', 'search'],
+  },
 ];
 
 export default PluginList;
