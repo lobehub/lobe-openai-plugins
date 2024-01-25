@@ -174,6 +174,91 @@ const PluginList: PluginItem[] = [
     path: 'video-summary',
     tags: ['video-to-text', 'youtube'],
   },
+  {
+    manifest: 'https://sheets.accessplugins.com/.well-known/ai-plugin.json',
+    path: 'access-google-sheets',
+    tags: ['google', 'sheets', 'excel'],
+  },
+  {
+    manifest: 'https://aladin-search-book.azurewebsites.net/.well-known/ai-plugin.json',
+    path: 'aladin-search-book',
+    tags: ['book', 'search'],
+  },
+  {
+    manifest: 'https://api.prod.bardeen.ai/bot/static/ai-plugin.json',
+    path: 'bardeen',
+    tags: ['workflow', 'automatic'],
+  },
+  {
+    manifest: 'https://api.pulsetic.com/.well-known/ai-plugin.json',
+    path: 'uptime',
+    tags: ['website', 'performance', 'test'],
+  },
+  {
+    manifest: 'https://dmtoolkit.magejosh.repl.co/.well-known/ai-plugin.json',
+    path: 'diceroller',
+    tags: ['game', 'dice', 'dm'],
+  },
+  {
+    manifest: 'https://app.filtir.com/.well-known/ai-plugin.json',
+    path: 'factcheck',
+    tags: ['check', 'fact'],
+  },
+  {
+    manifest: 'https://imgser.aigenprompt.com/.well-known/ai-plugin.json',
+    path: 'image-search',
+    tags: ['image', 'search'],
+  },
+  {
+    manifest: 'https://levinbot.customplugin.ai/.well-known/ai-plugin.json',
+    path: 'levinbot',
+    tags: ['research-paper', 'search'],
+  },
+  {
+    manifest: 'https://podcasts.mixerbox.com/.well-known/ai-plugin.json',
+    path: 'mixer-box-podcasts',
+    tags: ['podcast', 'search'],
+  },
+  {
+    manifest: 'https://translate.mixerbox.com/.well-known/ai-plugin.json',
+    path: 'mixer-box-translate-ai-language-tutor',
+    tags: ['translate'],
+  },
+  {
+    manifest: 'https://weather.mixerbox.com/.well-known/ai-plugin.json',
+    path: 'mixer-box-weather',
+    tags: ['weather'],
+  },
+  {
+    manifest: 'https://portfoliometa.com/.well-known/ai-plugin.json',
+    path: 'stock-data',
+    tags: ['stock'],
+  },
+  {
+    manifest: 'https://webfx.ai/.well-known/ai-plugin.json',
+    path: 'seo-assistant',
+    tags: ['seo', 'keyword'],
+  },
+  {
+    manifest: 'https://shoppingtools.biz/.well-known/ai-plugin.json',
+    path: 'shopping-tools',
+    tags: ['shopping', 'eBay', 'AliExpress', 'coupons'],
+  },
+  {
+    manifest: 'https://space.automateyournetwork.ca/.well-known/ai-plugin.json',
+    path: 'space',
+    tags: ['space', 'nasa'],
+  },
+  {
+    manifest: 'https://gptfineart.azurewebsites.net/static/ai-plugin.json',
+    path: 'ssfineart',
+    tags: ['art', 'fineart', 'search'],
+  },
+  {
+    manifest: 'https://guitarchords.pluginboost.com/.well-known/ai-plugin.json',
+    path: 'uberchord',
+    tags: ['music', 'guitar', 'search'],
+  },
 ];
 
 export default PluginList;
