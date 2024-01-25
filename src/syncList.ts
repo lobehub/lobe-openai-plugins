@@ -1,4 +1,6 @@
 interface PluginItem {
+  author?: string;
+  homepage?: string;
   manifest: string;
   overrides?: {
     manifest?: { [key: string]: any };
@@ -104,11 +106,15 @@ const PluginList: PluginItem[] = [
     tags: ['nasa', 'search', 'image'],
   },
   {
+    author: 'steven-tey',
+    homepage: 'https://github.com/steven-tey/weathergpt',
     manifest: 'https://weathergpt.vercel.app/.well-known/ai-plugin.json',
     path: 'weather-gpt',
     tags: ['weather'],
   },
   {
+    author: 'yunwei37',
+    homepage: 'https://github.com/yunwei37/ChatGPT-github-stat-plugin',
     manifest: 'https://chat-gpt-github-stat-plugin.vercel.app/.well-known/ai-plugin.json',
     path: 'github-stats',
     tags: ['github', 'oss'],

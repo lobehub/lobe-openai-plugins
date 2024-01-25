@@ -28,7 +28,7 @@ const run = async () => {
   let expireList: string[] = [];
   const list = await pMap(
     data,
-    async ({ manifest, path, tags, overrides = {} }) => {
+    async ({ manifest, path, tags, overrides, author, homepage = {} }) => {
       consola.start(path);
       const dirPath = resolve(pluginDir, path);
       try {
@@ -90,8 +90,8 @@ const run = async () => {
         consola.success(`Synced ${path}`);
 
         return {
-          author: getAuthor(manifest),
-          homepage: getDomainFromUrl(manifest),
+          author: author || getAuthor(manifest),
+          homepage: homepage || getDomainFromUrl(manifest),
           identifier: manifestJson.name_for_model,
           manifest: urlJoin(BASE_URL, path, 'manifest.json'),
           meta: {
