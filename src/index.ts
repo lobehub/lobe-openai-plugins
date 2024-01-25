@@ -28,7 +28,7 @@ const run = async () => {
   let expireList: string[] = [];
   const list = await pMap(
     data,
-    async ({ manifest, path, tags, overrides, author, homepage = {} }) => {
+    async ({ manifest, path, tags, overrides = {}, author, homepage }) => {
       consola.start(path);
       const dirPath = resolve(pluginDir, path);
       try {
