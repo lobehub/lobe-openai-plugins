@@ -10,10 +10,6 @@ export const writeJSON = (filePath, data) => {
   writeFileSync(filePath, jsonStr, 'utf8');
 };
 
-export const writeYAML = (filePath, data) => {
-  writeFileSync(filePath, data, 'utf8');
-};
-
 export const getDomainFromUrl = (url) => {
   const withoutProtocol = url.replace(/^https?:\/\//, '');
   const domain = withoutProtocol.split('/')[0];
@@ -24,5 +20,6 @@ export const getAuthor = (url) => {
   const withoutProtocol = url.replace(/^https?:\/\//, '');
   const domain = withoutProtocol.split('/')[0];
   const domains = domain.split(':')[0].split('.');
+  if (domains[1] === 'vercel') return domains[0];
   return domains.length > 2 ? domains[1] : domains[0];
 };

@@ -55,6 +55,14 @@ const run = async () => {
           apiJson = load(apiYaml);
         }
 
+        if (!apiJson?.servers || apiJson?.servers?.length === 0) {
+          apiJson.servers = [
+            {
+              url: 'https://' + manifestJson.api.url.split('/')[2],
+            },
+          ];
+        }
+
         if (overrides?.openapi) {
           apiJson = merge(apiJson, overrides.openapi);
         }

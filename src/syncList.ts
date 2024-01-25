@@ -20,15 +20,6 @@ const PluginList: PluginItem[] = [
   },
   {
     manifest: 'https://plugin.askyourpdf.com/.well-known/ai-plugin.json',
-    overrides: {
-      openapi: {
-        servers: [
-          {
-            url: 'https://plugin.askyourpdf.com',
-          },
-        ],
-      },
-    },
     path: 'ask-your-pdf',
     tags: ['pdf', 'document', 'web'],
   },
