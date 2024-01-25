@@ -3,7 +3,7 @@
   "plugins": [
     {
       "author": "orrenprunckun",
-      "homepage": {},
+      "homepage": "https://seo-plugin.orrenprunckun.com",
       "identifier": "SEO",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/seo/manifest.json",
       "meta": {
@@ -16,7 +16,7 @@
     },
     {
       "author": "savvytrader",
-      "homepage": {},
+      "homepage": "https://savvytrader.com",
       "identifier": "savvy_trader_ai",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/manifest.json",
       "meta": {
@@ -29,7 +29,7 @@
     },
     {
       "author": "askyourpdf",
-      "homepage": {},
+      "homepage": "https://plugin.askyourpdf.com",
       "identifier": "askyourpdf",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/ask-your-pdf/manifest.json",
       "meta": {
@@ -42,7 +42,7 @@
     },
     {
       "author": "assetovi",
-      "homepage": {},
+      "homepage": "https://assetovi.com",
       "identifier": "assetOvi",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/asset-ovi/manifest.json",
       "meta": {
@@ -55,7 +55,7 @@
     },
     {
       "author": "efficiency",
-      "homepage": {},
+      "homepage": "https://chat-plugin-giphy.efficiency.tools",
       "identifier": "GifApi",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/gif-search/manifest.json",
       "meta": {
@@ -68,7 +68,7 @@
     },
     {
       "author": "say-apps",
-      "homepage": {},
+      "homepage": "https://twitter.say-apps.com",
       "identifier": "socialsearch",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/social-search/manifest.json",
       "meta": {
@@ -81,7 +81,7 @@
     },
     {
       "author": "onrender",
-      "homepage": {},
+      "homepage": "https://stack-overflow-search.onrender.com",
       "identifier": "stackoverflow_plus",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/stackoverflow/manifest.json",
       "meta": {
@@ -94,7 +94,7 @@
     },
     {
       "author": "getchange",
-      "homepage": {},
+      "homepage": "https://api.getchange.io",
       "identifier": "nonprofits",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/getchange/manifest.json",
       "meta": {
@@ -107,7 +107,7 @@
     },
     {
       "author": "feednews",
-      "homepage": {},
+      "homepage": "https://cryptoplugin.feednews.com",
       "identifier": "TokenInsights",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/token-insights/manifest.json",
       "meta": {
@@ -120,7 +120,7 @@
     },
     {
       "author": "swap",
-      "homepage": {},
+      "homepage": "https://app.swap.net",
       "identifier": "nftguru",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/nftguru/manifest.json",
       "meta": {
@@ -133,7 +133,7 @@
     },
     {
       "author": "onrender",
-      "homepage": {},
+      "homepage": "https://llamawrapper-prod.onrender.com",
       "identifier": "defillama",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/defillama/manifest.json",
       "meta": {
@@ -146,7 +146,7 @@
     },
     {
       "author": "mintbase",
-      "homepage": {},
+      "homepage": "https://search-ai.mintbase.xyz",
       "identifier": "mintbasesearch",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/mintbasesearch/manifest.json",
       "meta": {
@@ -159,7 +159,7 @@
     },
     {
       "author": "speak",
-      "homepage": {},
+      "homepage": "https://speak.com",
       "identifier": "speak",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/speak/manifest.json",
       "meta": {
@@ -172,7 +172,7 @@
     },
     {
       "author": "tapapis",
-      "homepage": {},
+      "homepage": "https://openai.tapapis.com",
       "identifier": "GameSight",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/game-sight/manifest.json",
       "meta": {
@@ -185,7 +185,7 @@
     },
     {
       "author": "plugsugar",
-      "homepage": {},
+      "homepage": "https://websearch.plugsugar.com",
       "identifier": "web_search",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/web-search/manifest.json",
       "meta": {
@@ -198,7 +198,7 @@
     },
     {
       "author": "brandzzy",
-      "homepage": {},
+      "homepage": "https://sheet-generator.brandzzy.com",
       "identifier": "make_an_excel_sheet",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/make-a-sheet/manifest.json",
       "meta": {
@@ -211,7 +211,7 @@
     },
     {
       "author": "redstarplugin",
-      "homepage": {},
+      "homepage": "https://showme.redstarplugin.com",
       "identifier": "diagrams_show_me",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/diagrams-show-me/manifest.json",
       "meta": {
@@ -224,7 +224,7 @@
     },
     {
       "author": "boolio",
-      "homepage": {},
+      "homepage": "https://chatgpt.boolio.co.kr",
       "identifier": "boolio",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/boolio/manifest.json",
       "meta": {
@@ -237,7 +237,7 @@
     },
     {
       "author": "360macky",
-      "homepage": {},
+      "homepage": "https://api.360macky.com",
       "identifier": "astrodaily",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/astrodaily/manifest.json",
       "meta": {
@@ -276,7 +276,7 @@
     },
     {
       "author": "questmate",
-      "homepage": {},
+      "homepage": "https://chatgpt-plugin.questmate.com",
       "identifier": "questmate",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/questmate/manifest.json",
       "meta": {
@@ -289,7 +289,7 @@
     },
     {
       "author": "maila",
-      "homepage": {},
+      "homepage": "https://scholarly.maila.ai",
       "identifier": "scholarly",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/scholarly/manifest.json",
       "meta": {
@@ -302,7 +302,7 @@
     },
     {
       "author": "litmaps",
-      "homepage": {},
+      "homepage": "https://api.litmaps.com",
       "identifier": "litmaps",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/litmaps/manifest.json",
       "meta": {
@@ -315,7 +315,7 @@
     },
     {
       "author": "txyz",
-      "homepage": {},
+      "homepage": "https://txyz.ai",
       "identifier": "ResearchAI",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/txyz/manifest.json",
       "meta": {
@@ -328,7 +328,7 @@
     },
     {
       "author": "guruwalk",
-      "homepage": {},
+      "homepage": "https://www.guruwalk.com",
       "identifier": "todo",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/manifest.json",
       "meta": {
@@ -341,7 +341,7 @@
     },
     {
       "author": "travelmyth",
-      "homepage": {},
+      "homepage": "https://www.travelmyth.com",
       "identifier": "travelmyth",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/travelmyth/manifest.json",
       "meta": {
@@ -354,7 +354,7 @@
     },
     {
       "author": "beta3",
-      "homepage": {},
+      "homepage": "https://earthquake.beta3.dev",
       "identifier": "earthquake",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/earthquake/manifest.json",
       "meta": {
@@ -367,7 +367,7 @@
     },
     {
       "author": "domatron",
-      "homepage": {},
+      "homepage": "https://gpt.domatron.com",
       "identifier": "domatron",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/domatron/manifest.json",
       "meta": {
@@ -380,7 +380,7 @@
     },
     {
       "author": "onrender",
-      "homepage": {},
+      "homepage": "https://nba-gpt-prod.onrender.com",
       "identifier": "nba_stats",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/manifest.json",
       "meta": {
@@ -393,7 +393,7 @@
     },
     {
       "author": "maila",
-      "homepage": {},
+      "homepage": "https://vcaption.maila.ai",
       "identifier": "VideoCaptions",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/video-captions/manifest.json",
       "meta": {
@@ -406,7 +406,7 @@
     },
     {
       "author": "glarity",
-      "homepage": {},
+      "homepage": "https://glarity.app",
       "identifier": "Video_summary",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/video-summary/manifest.json",
       "meta": {
