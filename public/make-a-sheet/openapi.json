@@ -68,5 +68,10 @@
         }
       }
     }
-  }
+  },
+  "servers": [
+    {
+      "url": "https://sheet-generator.brandzzy.com"
+    }
+  ]
 }

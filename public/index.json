@@ -249,7 +249,7 @@
       "schemaVersion": 1
     },
     {
-      "author": "vercel",
+      "author": "weathergpt",
       "homepage": "https://weathergpt.vercel.app",
       "identifier": "WeatherGPT",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/weather-gpt/manifest.json",
@@ -262,7 +262,7 @@
       "schemaVersion": 1
     },
     {
-      "author": "vercel",
+      "author": "chat-gpt-github-stat-plugin",
       "homepage": "https://chat-gpt-github-stat-plugin.vercel.app",
       "identifier": "gitUserRepoStats",
       "manifest": "https://openai-collections.chat-plugin.lobehub.com/github-stats/manifest.json",

@@ -484,5 +484,10 @@
         }
       }
     }
-  }
+  },
+  "servers": [
+    {
+      "url": "https://chatgpt.boolio.co.kr"
+    }
+  ]
 }

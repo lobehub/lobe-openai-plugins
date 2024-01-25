@@ -180,5 +180,10 @@
         }
       }
     }
-  }
+  },
+  "servers": [
+    {
+      "url": "https://weathergpt.vercel.app"
+    }
+  ]
 }
