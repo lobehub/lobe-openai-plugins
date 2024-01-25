@@ -19,6 +19,7 @@ export interface PluginMainifest {
     type: 'none' | string;
   };
   description_for_human: string;
+  legal_info_url: string;
   logo_url: string;
   name_for_human: string;
   name_for_model: string;
@@ -89,9 +90,11 @@ const run = async () => {
 
         consola.success(`Synced ${path}`);
 
+        const domain = manifestJson.legal_info_url || manifest;
+
         return {
-          author: author || getAuthor(manifest),
-          homepage: homepage || getDomainFromUrl(manifest),
+          author: author || getAuthor(domain),
+          homepage: homepage || manifestJson.legal_info_url || getDomainFromUrl(domain),
           identifier: manifestJson.name_for_model,
           manifest: urlJoin(BASE_URL, path, 'manifest.json'),
           meta: {
