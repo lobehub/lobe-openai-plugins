@@ -1,0 +1,18 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/medium/openapi.json",
+    "is_user_authenticated": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "support@medium.com",
+  "description_for_human": "Plugin for accessing, browsing and extracting Medium content.",
+  "description_for_model": "Requests Medium posts, stories, to do manipulation and queries on the content.",
+  "legal_info_url": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+  "logo_url": "https://openai-collections.chat-plugin.lobehub.com/medium/logo.webp",
+  "name_for_human": "Medium plugin",
+  "name_for_model": "MediumGPTPlugin",
+  "schema_version": "v1"
+}
