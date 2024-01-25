@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/video-captions/openapi.yaml",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/video-captions/openapi.json",
     "has_user_authentication": false
   },
   "auth": {

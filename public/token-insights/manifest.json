@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/token-insights/openapi.yaml"
+    "url": "https://openai-collections.chat-plugin.lobehub.com/token-insights/openapi.json"
   },
   "auth": {
     "type": "none"

@@ -1,0 +1,178 @@
+{
+  "components": {
+    "schemas": {
+      "findCollectionResponse": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string",
+            "description": "address on chain"
+          },
+          "name": {
+            "type": "string",
+            "description": "The name of the collection."
+          },
+          "symbol": {
+            "type": "string",
+            "description": "symbol of the collection"
+          },
+          "slug": {
+            "type": "string",
+            "description": "The slug of the collection."
+          },
+          "description": {
+            "type": "string",
+            "description": "The description of the collection."
+          },
+          "image": {
+            "type": "string",
+            "description": "Image url preview."
+          },
+          "web": {
+            "type": "string",
+            "description": "The site of collection"
+          },
+          "twitter": {
+            "type": "string",
+            "description": "The Twitter of collection"
+          },
+          "discord": {
+            "type": "string",
+            "description": "The Discord of collection"
+          },
+          "floorPrice": {
+            "type": "number",
+            "description": "The collection global floor price."
+          },
+          "chain": {
+            "type": "string",
+            "description": "chain where collection created"
+          },
+          "totalSupply": {
+            "type": "string",
+            "description": "total supply of collection"
+          },
+          "percentageOfOpened": {
+            "type": "number",
+            "description": "percentage of opened tokens"
+          },
+          "maxRarity": {
+            "type": "number",
+            "description": "max rarity of tokens"
+          }
+        }
+      },
+      "getTradingTopResponse": {
+        "type": "array",
+        "items": {
+          "oneOf": [
+            {
+              "$ref": "#/components/schemas/getTradingTopResponseItem"
+            }
+          ]
+        }
+      },
+      "getTradingTopResponseItem": {
+        "type": "object",
+        "properties": {
+          "collectionName": {
+            "type": "string",
+            "description": "The name of the collection."
+          },
+          "sales": {
+            "type": "integer",
+            "description": "The number of sales."
+          },
+          "volume": {
+            "type": "integer",
+            "description": "The volume 24h (unix time)."
+          },
+          "floorPrice": {
+            "type": "number",
+            "description": "The collection global floor price."
+          }
+        }
+      }
+    }
+  },
+  "info": {
+    "title": "NFT Guru - Your Companion for NFT Learning and Tracking",
+    "description": "Discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time data.",
+    "version": "v1"
+  },
+  "openapi": "3.0.1",
+  "paths": {
+    "/get-trading-top": {
+      "get": {
+        "operationId": "getTradingTop",
+        "summary": "Retrieves 24h trading top of collections.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "chain",
+            "schema": {
+              "type": "string"
+            },
+            "required": false,
+            "description": "Network ethereum/polygon etc."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/getTradingTopResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/find-collection": {
+      "get": {
+        "operationId": "findCollection",
+        "summary": "find information about collection",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "chain",
+            "schema": {
+              "type": "string"
+            },
+            "required": false,
+            "description": "Network ethereum/polygon etc."
+          },
+          {
+            "in": "query",
+            "name": "search",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "name or symbol or slug or address on chain"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/findCollectionResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://app.swap.net/api/chat-gpt4"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/openapi.yaml",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/openapi.json",
     "is_user_authenticated": false
   },
   "auth": {

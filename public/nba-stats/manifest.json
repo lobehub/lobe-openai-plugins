@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/openapi.yaml"
+    "url": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/openapi.json"
   },
   "auth": {
     "type": "none"

@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/game-sight/openapi.yaml",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/game-sight/openapi.json",
     "has_user_authentication": false
   },
   "auth": {

@@ -2,7 +2,7 @@
   "api": {
     "type": "openapi",
     "is_user_authenticated": "false",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/gif-search/openapi.yaml"
+    "url": "https://openai-collections.chat-plugin.lobehub.com/gif-search/openapi.json"
   },
   "auth": {
     "type": "none"

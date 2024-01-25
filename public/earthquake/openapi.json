@@ -1,0 +1,73 @@
+{
+  "components": {
+    "schemas": {
+      "queryResponse": {
+        "type": "object",
+        "properties": {
+          "features": {
+            "type": "array",
+            "items": {
+              "type": {
+                "$ref": "#/components/schemas/feature"
+              }
+            },
+            "description": "The list of earthquakes"
+          }
+        }
+      },
+      "feature": {
+        "type": "object",
+        "properties": {
+          "properties": {
+            "type": "object",
+            "properties": {
+              "mag": {
+                "type": "int",
+                "description": "magnitude of the earthquake"
+              },
+              "place": {
+                "type": "string",
+                "description": "the location of the earthquake"
+              },
+              "time": {
+                "type": "timestamp",
+                "description": "when the earthquake occurs"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "info": {
+    "title": "Earthquake Info",
+    "description": "Allows the user to query about the latest earthquake information.",
+    "version": "v1"
+  },
+  "openapi": "3.0.1",
+  "paths": {
+    "/earthquakes/feed/v1.0/summary/4.5_day.geojson": {
+      "get": {
+        "operationId": "queryEarthquake",
+        "summary": "Get the list of earthquakes",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/queryResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://earthquake.beta3.dev"
+    }
+  ]
+}

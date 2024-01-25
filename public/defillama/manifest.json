@@ -2,7 +2,7 @@
   "api": {
     "is_user_authenticated": false,
     "type": "openapi",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/defillama/openapi.yaml"
+    "url": "https://openai-collections.chat-plugin.lobehub.com/defillama/openapi.json"
   },
   "auth": {
     "type": "none"

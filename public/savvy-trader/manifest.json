@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/openapi.yaml",
+    "url": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/openapi.json",
     "is_user_authenticated": false
   },
   "auth": {
