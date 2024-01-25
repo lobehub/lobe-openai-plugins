@@ -1,4 +1,6 @@
 import { consola } from 'consola';
+import { load } from 'js-yaml';
+import { merge } from 'lodash';
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import pMap from 'p-map';
@@ -7,11 +9,14 @@ import urlJoin from 'url-join';
 
 import { BASE_URL, pluginDir } from './const';
 import data from './syncList';
-import { getAuthor, getDomainFromUrl, readJSON, writeJSON, writeYAML } from './utils';
+import { getAuthor, getDomainFromUrl, readJSON, writeJSON } from './utils';
 
-interface PluginMainifest {
+export interface PluginMainifest {
   api: {
     url: string;
+  };
+  auth: {
+    type: 'none' | string;
   };
   description_for_human: string;
   logo_url: string;
@@ -23,7 +28,7 @@ const run = async () => {
   let expireList: string[] = [];
   const list = await pMap(
     data,
-    async ({ manifest, path, tags }) => {
+    async ({ manifest, path, tags, overrides = {} }) => {
       consola.start(path);
       const dirPath = resolve(pluginDir, path);
       try {
@@ -31,19 +36,30 @@ const run = async () => {
           mkdirSync(dirPath, { recursive: true });
         }
         const manifestRes = await fetch(manifest);
-        const manifestJson: PluginMainifest = await manifestRes.json();
+        let manifestJson: PluginMainifest = await manifestRes.json();
         if (!manifestJson) return;
+
+        if (overrides?.manifest) {
+          manifestJson = merge(manifestJson, overrides.manifest);
+        }
 
         const apiRes = await fetch(manifestJson.api.url);
         const isJSON = manifestJson.api.url.includes('.json');
-        const apiFilename = isJSON ? 'openapi.json' : 'openapi.yaml';
+        const apiFilename = 'openapi.json';
+
+        let apiJson;
         if (isJSON) {
-          const apiJson = await apiRes.json();
-          writeJSON(resolve(dirPath, apiFilename), apiJson);
+          apiJson = await apiRes.json();
         } else {
           const apiYaml = await apiRes.text();
-          writeYAML(resolve(dirPath, apiFilename), apiYaml);
+          apiJson = load(apiYaml);
         }
+
+        if (overrides?.openapi) {
+          apiJson = merge(apiJson, overrides.openapi);
+        }
+
+        writeJSON(resolve(dirPath, apiFilename), apiJson);
 
         const logoName = resolve(dirPath, `logo.webp`);
 

@@ -14,6 +14,7 @@
     "prepare": "husky install",
     "prettier": "prettier -c --write \"**/**\"",
     "start": "npm run dev",
+    "sync": "bun scripts/syncOpenAI.ts",
     "test": "npm run lint",
     "type-check": "tsc --noEmit"
   },
@@ -27,24 +28,25 @@
     ],
     "*.{js,jsx}": [
       "prettier --write",
-      "stylelint --fix",
       "eslint --fix"
     ],
     "*.{ts,tsx}": [
       "prettier --parser=typescript --write",
-      "stylelint --fix",
       "eslint --fix"
     ]
   },
   "devDependencies": {
     "@commitlint/cli": "^17",
     "@lobehub/lint": "latest",
+    "@types/lodash": "^4",
     "@types/node": "^20",
     "commitlint": "^17",
     "consola": "^3",
     "eslint": "^8",
     "husky": "^8",
+    "js-yaml": "^4",
     "lint-staged": "^15",
+    "lodash": "^4",
     "p-map": "^7",
     "prettier": "^3",
     "remark": "^14",
