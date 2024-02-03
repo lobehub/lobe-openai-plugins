@@ -279,7 +279,7 @@
   },
   "servers": [
     {
-      "url": "https://api.txyz.ai"
+      "url": "https://plugin.txyz.ai"
     }
   ]
 }
