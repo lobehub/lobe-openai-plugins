@@ -264,6 +264,11 @@ const PluginList: PluginItem[] = [
     path: 'medium',
     tags: ['article', 'search'],
   },
+  {
+    manifest: 'https://mermaid.pyxl.uk/.well-known/ai-plugin.json',
+    path: 'charts-and-diagrams',
+    tags: ['chart', 'diagram'],   
+  }
 ];
 
 export default PluginList;
