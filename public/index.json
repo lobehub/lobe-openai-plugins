@@ -1,5 +1,5 @@
 {
-  "expires": ["stackoverflow_plus"],
+  "expires": ["stackoverflow_plus", "nba_stats"],
   "plugins": [
     {
       "author": "orrenprunckun",
@@ -362,19 +362,6 @@
         "description": "Find available, brandable .com domain names for your business businesses.",
         "tags": ["domain", "search"],
         "title": "Domatron Domains"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "onrender",
-      "homepage": "https://nba-gpt-prod.onrender.com",
-      "identifier": "nba_stats",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/nba-stats/logo.webp",
-        "description": "Find and analyze basketball stats from various databases of games, players, teams, and play-by-plays.",
-        "tags": ["sports", "basketball", "nba"],
-        "title": "Basketball Stats"
       },
       "schemaVersion": 1
     },
