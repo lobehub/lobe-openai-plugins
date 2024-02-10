@@ -1,5 +1,5 @@
 {
-  "expires": ["stackoverflow_plus", "nba_stats"],
+  "expires": ["stackoverflow_plus", "nba_stats", "earthquake"],
   "plugins": [
     {
       "author": "orrenprunckun",
@@ -336,19 +336,6 @@
         "description": "Unleash personalized hotel search with Travelmyth, offering 60 unique categories for the perfect match.",
         "tags": ["travel", "hotel", "search"],
         "title": "Travelmyth"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "beta3",
-      "homepage": "https://earthquake.beta3.dev",
-      "identifier": "earthquake",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/earthquake/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/earthquake/logo.webp",
-        "description": "Get latest earthquake information.",
-        "tags": ["earthquake", "utilities"],
-        "title": "Earthquake Info"
       },
       "schemaVersion": 1
     },
