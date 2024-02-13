@@ -1,5 +1,12 @@
 {
-  "expires": ["stackoverflow_plus", "nba_stats", "earthquake"],
+  "expires": [
+    "stackoverflow_plus",
+    "TokenInsights",
+    "speak",
+    "nba_stats",
+    "earthquake",
+    "factcheck"
+  ],
   "plugins": [
     {
       "author": "orrenprunckun",
@@ -93,19 +100,6 @@
       "schemaVersion": 1
     },
     {
-      "author": "feednews",
-      "homepage": "https://cryptoplugin.feednews.com",
-      "identifier": "TokenInsights",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/token-insights/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/token-insights/logo.webp",
-        "description": "Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.",
-        "tags": ["crypto", "BTC", "ETH", "BNB"],
-        "title": "TokenInsights"
-      },
-      "schemaVersion": 1
-    },
-    {
       "author": "swap",
       "homepage": "https://app.swap.net",
       "identifier": "nftguru",
@@ -141,19 +135,6 @@
         "description": "Find any NFT data on the NEAR Protocol.",
         "tags": ["crypto", "NFT"],
         "title": "MintbaseSearch"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "speak",
-      "homepage": "https://speak.com",
-      "identifier": "speak",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/speak/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/speak/logo.webp",
-        "description": "Learn how to say anything in another language with Speak, your AI-powered language tutor.",
-        "tags": ["education", "language"],
-        "title": "Speak"
       },
       "schemaVersion": 1
     },
@@ -440,19 +421,6 @@
         "description": "App for rolling dice using the d20 or Fate/Fudge systems.",
         "tags": ["game", "dice", "dm"],
         "title": "DM Tool Kit"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "filtir",
-      "homepage": "https://app.filtir.com",
-      "identifier": "factcheck",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/factcheck/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/factcheck/logo.webp",
-        "description": "Verify the provided text using external sources.",
-        "tags": ["check", "fact"],
-        "title": "Filtir"
       },
       "schemaVersion": 1
     },
