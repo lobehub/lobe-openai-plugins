@@ -1,5 +1,12 @@
 {
-  "expires": ["stackoverflow_plus", "speak", "nba_stats", "earthquake", "factcheck"],
+  "expires": [
+    "stackoverflow_plus",
+    "TokenInsights",
+    "speak",
+    "nba_stats",
+    "earthquake",
+    "factcheck"
+  ],
   "plugins": [
     {
       "author": "orrenprunckun",
@@ -89,19 +96,6 @@
         "description": "Discover impactful nonprofits to support in your community and beyond.",
         "tags": ["charity"],
         "title": "Change"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "feednews",
-      "homepage": "https://cryptoplugin.feednews.com",
-      "identifier": "TokenInsights",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/token-insights/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/token-insights/logo.webp",
-        "description": "Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.",
-        "tags": ["crypto", "BTC", "ETH", "BNB"],
-        "title": "TokenInsights"
       },
       "schemaVersion": 1
     },
