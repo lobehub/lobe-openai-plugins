@@ -1,12 +1,5 @@
 {
-  "expires": [
-    "stackoverflow_plus",
-    "speak",
-    "TokenInsights",
-    "nba_stats",
-    "earthquake",
-    "factcheck"
-  ],
+  "expires": ["stackoverflow_plus", "TokenInsights", "speak", "earthquake", "nba_stats"],
   "plugins": [
     {
       "author": "orrenprunckun",
@@ -421,6 +414,19 @@
         "description": "App for rolling dice using the d20 or Fate/Fudge systems.",
         "tags": ["game", "dice", "dm"],
         "title": "DM Tool Kit"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "filtir",
+      "homepage": "https://app.filtir.com",
+      "identifier": "factcheck",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/factcheck/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/factcheck/logo.webp",
+        "description": "Verify the provided text using external sources.",
+        "tags": ["check", "fact"],
+        "title": "Filtir"
       },
       "schemaVersion": 1
     },
