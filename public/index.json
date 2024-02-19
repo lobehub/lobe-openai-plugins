@@ -1,5 +1,5 @@
 {
-  "expires": ["stackoverflow_plus", "TokenInsights", "speak", "earthquake", "nba_stats"],
+  "expires": ["stackoverflow_plus", "TokenInsights", "speak", "nba_stats", "earthquake"],
   "plugins": [
     {
       "author": "orrenprunckun",
