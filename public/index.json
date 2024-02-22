@@ -1,11 +1,11 @@
 {
   "expires": [
-    "socialsearch",
     "stackoverflow_plus",
+    "socialsearch",
     "TokenInsights",
     "speak",
-    "nba_stats",
-    "earthquake"
+    "earthquake",
+    "nba_stats"
   ],
   "plugins": [
     {
