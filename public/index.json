@@ -2,8 +2,8 @@
   "expires": [
     "socialsearch",
     "stackoverflow_plus",
-    "speak",
     "TokenInsights",
+    "speak",
     "nba_stats",
     "earthquake"
   ],
