@@ -4,8 +4,8 @@
     "stackoverflow_plus",
     "TokenInsights",
     "speak",
-    "nba_stats",
-    "earthquake"
+    "earthquake",
+    "nba_stats"
   ],
   "plugins": [
     {
