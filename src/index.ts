@@ -102,8 +102,8 @@ const run = async () => {
             tags: tags,
             title: manifestJson.name_for_human,
           },
-          systemRole: manifestJson.description_for_model,
           schemaVersion: 1,
+          systemRole: manifestJson.description_for_model,
         };
       } catch (error) {
         consola.error(`Failed to sync ${path}`, error);
