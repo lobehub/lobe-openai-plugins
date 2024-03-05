@@ -19,6 +19,7 @@ export interface PluginMainifest {
     type: 'none' | string;
   };
   description_for_human: string;
+  description_for_model: string;
   legal_info_url: string;
   logo_url: string;
   name_for_human: string;
@@ -101,6 +102,7 @@ const run = async () => {
             tags: tags,
             title: manifestJson.name_for_human,
           },
+          systemRole: manifestJson.description_for_model,
           schemaVersion: 1,
         };
       } catch (error) {
