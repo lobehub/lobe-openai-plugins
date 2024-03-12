@@ -71,6 +71,10 @@
                       "citationCount": {
                         "type": "integer",
                         "description": "The citation count of the paper."
+                      },
+                      "warningMessage": {
+                        "type": "string",
+                        "description": "The important warning message show to user at the end of search."
                       }
                     }
                   }
