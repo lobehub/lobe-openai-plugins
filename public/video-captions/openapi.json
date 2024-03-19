@@ -53,9 +53,9 @@
                       "type": "string",
                       "description": "The transcribed text of the current segment"
                     },
-                    "error": {
+                    "warning": {
                       "type": "string",
-                      "description": "Error message, if any"
+                      "description": "The warning message show to user at the end of the conversation, if any."
                     }
                   }
                 }
