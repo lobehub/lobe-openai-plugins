@@ -5,6 +5,8 @@
     "speak",
     "nba_stats",
     "earthquake",
+    "ImageSearch",
+    "Space",
     "Charts_and_Diagrams"
   ],
   "plugins": [
@@ -438,19 +440,6 @@
       "schemaVersion": 1
     },
     {
-      "author": "aigenprompt",
-      "homepage": "https://imgser.aigenprompt.com",
-      "identifier": "ImageSearch",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/image-search/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/image-search/logo.webp",
-        "description": "Discover complimentary images to enhance your generated article or to highlight specific paragraphs from Unsplash.",
-        "tags": ["image", "search"],
-        "title": "ImageSearch"
-      },
-      "schemaVersion": 1
-    },
-    {
       "author": "customplugin",
       "homepage": "https://levinbot.customplugin.ai",
       "identifier": "levinbot",
@@ -538,19 +527,6 @@
         "description": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
         "tags": ["shopping", "eBay", "AliExpress", "coupons"],
         "title": "Shopping tools"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "automateyournetwork",
-      "homepage": "https://space.automateyournetwork.ca",
-      "identifier": "Space",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/space/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/space/logo.webp",
-        "description": "Space data including NASA.",
-        "tags": ["space", "nasa"],
-        "title": "Space"
       },
       "schemaVersion": 1
     },
