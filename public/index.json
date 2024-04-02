@@ -1,13 +1,12 @@
 {
   "expires": [
     "stackoverflow_plus",
-    "nftguru",
     "speak",
     "nba_stats",
     "earthquake",
     "ImageSearch",
-    "Charts_and_Diagrams",
-    "Space"
+    "Space",
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
@@ -111,6 +110,19 @@
         "description": "Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.",
         "tags": ["crypto", "BTC", "ETH", "BNB"],
         "title": "TokenInsights"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "swap",
+      "homepage": "https://app.swap.net",
+      "identifier": "nftguru",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/nftguru/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/nftguru/logo.webp",
+        "description": "Discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time",
+        "tags": ["crypto", "NFT"],
+        "title": "NFT Guru"
       },
       "schemaVersion": 1
     },
