@@ -1,8 +1,7 @@
 {
   "expires": [
-    "stackoverflow_plus",
     "socialsearch",
-    "speak",
+    "stackoverflow_plus",
     "scholarly",
     "nba_stats",
     "earthquake",
@@ -138,6 +137,19 @@
         "description": "Find any NFT data on the NEAR Protocol.",
         "tags": ["crypto", "NFT"],
         "title": "MintbaseSearch"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "speak",
+      "homepage": "https://speak.com",
+      "identifier": "speak",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/speak/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/speak/logo.webp",
+        "description": "Learn how to say anything in another language with Speak, your AI-powered language tutor.",
+        "tags": ["education", "language"],
+        "title": "Speak"
       },
       "schemaVersion": 1
     },
