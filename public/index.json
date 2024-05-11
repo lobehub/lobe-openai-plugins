@@ -6,8 +6,7 @@
     "earthquake",
     "nba_stats",
     "ImageSearch",
-    "Charts_and_Diagrams",
-    "Space"
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
@@ -527,6 +526,19 @@
         "description": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
         "tags": ["shopping", "eBay", "AliExpress", "coupons"],
         "title": "Shopping tools"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "automateyournetwork",
+      "homepage": "https://space.automateyournetwork.ca",
+      "identifier": "Space",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/space/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/space/logo.webp",
+        "description": "Space data including NASA.",
+        "tags": ["space", "nasa"],
+        "title": "Space"
       },
       "schemaVersion": 1
     },
