@@ -6,7 +6,9 @@
     "nba_stats",
     "earthquake",
     "ImageSearch",
-    "Charts_and_Diagrams"
+    "factcheck",
+    "Charts_and_Diagrams",
+    "askyourpdf"
   ],
   "plugins": [
     {
@@ -32,19 +34,6 @@
         "description": "Realtime stock, crypto and other investment data.",
         "tags": ["stock", "analyze"],
         "title": "Savvy Trader AI"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "askyourpdf",
-      "homepage": "https://plugin.askyourpdf.com",
-      "identifier": "askyourpdf",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/ask-your-pdf/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/ask-your-pdf/logo.webp",
-        "description": "Unlock the power of your PDFs!, dive into your documents, find answers, and bring information to your fingertips.",
-        "tags": ["pdf", "document", "web"],
-        "title": "AskYourPDF"
       },
       "schemaVersion": 1
     },
@@ -422,19 +411,6 @@
         "description": "App for rolling dice using the d20 or Fate/Fudge systems.",
         "tags": ["game", "dice", "dm"],
         "title": "DM Tool Kit"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "filtir",
-      "homepage": "https://app.filtir.com",
-      "identifier": "factcheck",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/factcheck/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/factcheck/logo.webp",
-        "description": "Verify the provided text using external sources.",
-        "tags": ["check", "fact"],
-        "title": "Filtir"
       },
       "schemaVersion": 1
     },
