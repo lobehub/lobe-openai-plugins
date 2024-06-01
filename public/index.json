@@ -1,6 +1,5 @@
 {
   "expires": [
-    "socialsearch",
     "stackoverflow_plus",
     "speak",
     "diagrams_show_me",
@@ -62,6 +61,19 @@
         "description": "Search through a wide range of gifs - Powered by Giphy.",
         "tags": ["gif", "image", "search"],
         "title": "GIF Search"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "say-apps",
+      "homepage": "https://twitter.say-apps.com",
+      "identifier": "socialsearch",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/social-search/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/social-search/logo.webp",
+        "description": "The Social Search provides access to tweets, users, followers, images, media and more.",
+        "tags": ["social", "twitter", "x", "search"],
+        "title": "Social Search"
       },
       "schemaVersion": 1
     },
