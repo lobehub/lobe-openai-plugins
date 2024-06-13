@@ -4,11 +4,11 @@
     "speak",
     "diagrams_show_me",
     "scholarly",
-    "nba_stats",
     "earthquake",
+    "nba_stats",
     "factcheck",
-    "Charts_and_Diagrams",
     "ImageSearch",
+    "Charts_and_Diagrams",
     "askyourpdf"
   ],
   "plugins": [
