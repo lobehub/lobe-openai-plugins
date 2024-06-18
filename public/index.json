@@ -6,6 +6,7 @@
     "scholarly",
     "nba_stats",
     "earthquake",
+    "Bardeen",
     "factcheck",
     "ImageSearch",
     "Charts_and_Diagrams",
@@ -360,19 +361,6 @@
         "description": "Search for books on Aladin.",
         "tags": ["book", "search"],
         "title": "AladinBooks"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "prod",
-      "homepage": "https://api.prod.bardeen.ai",
-      "identifier": "Bardeen",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/bardeen/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/bardeen/logo.webp",
-        "description": "Create and run automations on the most popular web services.",
-        "tags": ["workflow", "automatic"],
-        "title": "Bardeen"
       },
       "schemaVersion": 1
     },
