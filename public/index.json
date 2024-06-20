@@ -4,6 +4,7 @@
     "speak",
     "diagrams_show_me",
     "scholarly",
+    "domatron",
     "nba_stats",
     "earthquake",
     "Bardeen",
@@ -296,19 +297,6 @@
         "description": "Unleash personalized hotel search with Travelmyth, offering 60 unique categories for the perfect match.",
         "tags": ["travel", "hotel", "search"],
         "title": "Travelmyth"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "domatron",
-      "homepage": "https://gpt.domatron.com",
-      "identifier": "domatron",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/domatron/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/domatron/logo.webp",
-        "description": "Find available, brandable .com domain names for your business businesses.",
-        "tags": ["domain", "search"],
-        "title": "Domatron Domains"
       },
       "schemaVersion": 1
     },
