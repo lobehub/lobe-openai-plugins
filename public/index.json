@@ -1,7 +1,6 @@
 {
   "expires": [
     "GifApi",
-    "savvy_trader_ai",
     "stackoverflow_plus",
     "speak",
     "diagrams_show_me",
@@ -26,6 +25,19 @@
         "description": "Enter any URL and keyword and get an On-Page SEO analysis & insights!",
         "tags": ["seo"],
         "title": "SEO"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "savvytrader",
+      "homepage": "https://savvytrader.com",
+      "identifier": "savvy_trader_ai",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/savvy-trader/logo.webp",
+        "description": "Realtime stock, crypto and other investment data.",
+        "tags": ["stock", "analyze"],
+        "title": "Savvy Trader AI"
       },
       "schemaVersion": 1
     },
