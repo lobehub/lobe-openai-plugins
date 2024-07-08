@@ -9,10 +9,10 @@
     "earthquake",
     "Bardeen",
     "ImageSearch",
-    "Charts_and_Diagrams",
     "domatron",
     "factcheck",
-    "askyourpdf"
+    "askyourpdf",
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
