@@ -3,7 +3,6 @@
     "GifApi",
     "stackoverflow_plus",
     "speak",
-    "diagrams_show_me",
     "scholarly",
     "earthquake",
     "nba_stats",
@@ -12,6 +11,7 @@
     "Charts_and_Diagrams",
     "domatron",
     "factcheck",
+    "diagrams_show_me",
     "askyourpdf"
   ],
   "plugins": [
