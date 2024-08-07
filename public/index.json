@@ -3,16 +3,16 @@
     "GifApi",
     "stackoverflow_plus",
     "speak",
+    "diagrams_show_me",
     "scholarly",
-    "earthquake",
     "domatron",
     "nba_stats",
+    "earthquake",
     "Bardeen",
     "ImageSearch",
     "Charts_and_Diagrams",
     "factcheck",
-    "askyourpdf",
-    "diagrams_show_me"
+    "askyourpdf"
   ],
   "plugins": [
     {
