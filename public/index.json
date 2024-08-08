@@ -3,16 +3,17 @@
     "GifApi",
     "stackoverflow_plus",
     "speak",
-    "diagrams_show_me",
     "scholarly",
     "domatron",
     "nba_stats",
     "earthquake",
     "Bardeen",
     "ImageSearch",
-    "Charts_and_Diagrams",
+    "MediumGPTPlugin",
     "factcheck",
-    "askyourpdf"
+    "askyourpdf",
+    "Charts_and_Diagrams",
+    "diagrams_show_me"
   ],
   "plugins": [
     {
@@ -493,19 +494,6 @@
         "description": "Find guitar chord diagrams by specifying the chord name.",
         "tags": ["music", "guitar", "search"],
         "title": "Uberchord"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "medium",
-      "homepage": "https://medium.com",
-      "identifier": "MediumGPTPlugin",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/medium/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/medium/logo.webp",
-        "description": "Plugin for accessing, browsing and extracting Medium content.",
-        "tags": ["article", "search"],
-        "title": "Medium plugin"
       },
       "schemaVersion": 1
     }
