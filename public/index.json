@@ -5,14 +5,15 @@
     "speak",
     "scholarly",
     "domatron",
-    "nba_stats",
     "earthquake",
+    "nba_stats",
     "Bardeen",
     "ImageSearch",
+    "Space",
     "MediumGPTPlugin",
+    "Charts_and_Diagrams",
     "factcheck",
     "askyourpdf",
-    "Charts_and_Diagrams",
     "diagrams_show_me"
   ],
   "plugins": [
@@ -455,19 +456,6 @@
         "description": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
         "tags": ["shopping", "eBay", "AliExpress", "coupons"],
         "title": "Shopping tools"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "automateyournetwork",
-      "homepage": "https://space.automateyournetwork.ca",
-      "identifier": "Space",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/space/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/space/logo.webp",
-        "description": "Space data including NASA.",
-        "tags": ["space", "nasa"],
-        "title": "Space"
       },
       "schemaVersion": 1
     },
