@@ -4,6 +4,7 @@
     "stackoverflow_plus",
     "speak",
     "scholarly",
+    "diagrams_show_me",
     "domatron",
     "nba_stats",
     "earthquake",
@@ -13,8 +14,7 @@
     "MediumGPTPlugin",
     "Charts_and_Diagrams",
     "factcheck",
-    "askyourpdf",
-    "diagrams_show_me"
+    "askyourpdf"
   ],
   "plugins": [
     {
