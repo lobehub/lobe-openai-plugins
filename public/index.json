@@ -4,17 +4,17 @@
     "stackoverflow_plus",
     "speak",
     "scholarly",
-    "diagrams_show_me",
     "domatron",
     "nba_stats",
     "earthquake",
     "Bardeen",
     "ImageSearch",
-    "Space",
     "MediumGPTPlugin",
     "Charts_and_Diagrams",
     "factcheck",
-    "askyourpdf"
+    "askyourpdf",
+    "Space",
+    "diagrams_show_me"
   ],
   "plugins": [
     {
