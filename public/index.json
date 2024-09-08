@@ -1,20 +1,21 @@
 {
   "expires": [
     "GifApi",
+    "socialsearch",
     "stackoverflow_plus",
     "speak",
     "scholarly",
+    "diagrams_show_me",
     "domatron",
     "nba_stats",
-    "earthquake",
     "Bardeen",
+    "earthquake",
     "ImageSearch",
     "MediumGPTPlugin",
-    "Charts_and_Diagrams",
     "factcheck",
     "askyourpdf",
     "Space",
-    "diagrams_show_me"
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
@@ -53,19 +54,6 @@
         "description": "Search and preview millions of 3D assets for games, AIGC, AR/VR and others.",
         "tags": ["3-d", "assets", "search"],
         "title": "Asset Ovi"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "say-apps",
-      "homepage": "https://twitter.say-apps.com",
-      "identifier": "socialsearch",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/social-search/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/social-search/logo.webp",
-        "description": "The Social Search provides access to tweets, users, followers, images, media and more.",
-        "tags": ["social", "twitter", "x", "search"],
-        "title": "Social Search"
       },
       "schemaVersion": 1
     },
