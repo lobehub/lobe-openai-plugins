@@ -8,14 +8,14 @@
     "domatron",
     "nba_stats",
     "earthquake",
+    "diagrams_show_me",
     "Bardeen",
     "ImageSearch",
-    "MediumGPTPlugin",
     "Charts_and_Diagrams",
+    "MediumGPTPlugin",
     "factcheck",
     "askyourpdf",
-    "Space",
-    "diagrams_show_me"
+    "Space"
   ],
   "plugins": [
     {
