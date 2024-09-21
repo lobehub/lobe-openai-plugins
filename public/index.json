@@ -4,18 +4,18 @@
     "socialsearch",
     "stackoverflow_plus",
     "speak",
-    "diagrams_show_me",
     "scholarly",
     "domatron",
-    "nba_stats",
     "earthquake",
+    "nba_stats",
     "Bardeen",
     "ImageSearch",
-    "Charts_and_Diagrams",
     "MediumGPTPlugin",
+    "Charts_and_Diagrams",
     "askyourpdf",
     "factcheck",
-    "Space"
+    "Space",
+    "diagrams_show_me"
   ],
   "plugins": [
     {
