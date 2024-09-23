@@ -1,21 +1,21 @@
 {
   "expires": [
     "GifApi",
-    "socialsearch",
     "stackoverflow_plus",
+    "socialsearch",
     "speak",
+    "diagrams_show_me",
     "scholarly",
     "domatron",
     "nba_stats",
     "earthquake",
     "Bardeen",
-    "factcheck",
     "ImageSearch",
     "Charts_and_Diagrams",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Space",
-    "diagrams_show_me"
+    "factcheck",
+    "Space"
   ],
   "plugins": [
     {
