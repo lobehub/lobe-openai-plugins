@@ -1,8 +1,8 @@
 {
   "expires": [
     "GifApi",
-    "socialsearch",
     "stackoverflow_plus",
+    "socialsearch",
     "speak",
     "scholarly",
     "ResearchAI",
@@ -14,8 +14,8 @@
     "MediumGPTPlugin",
     "Charts_and_Diagrams",
     "askyourpdf",
-    "Space",
     "factcheck",
+    "Space",
     "diagrams_show_me"
   ],
   "plugins": [
