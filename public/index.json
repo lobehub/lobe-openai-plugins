@@ -1,7 +1,7 @@
 {
   "expires": [
-    "GifApi",
     "socialsearch",
+    "GifApi",
     "stackoverflow_plus",
     "speak",
     "scholarly",
@@ -12,11 +12,11 @@
     "Bardeen",
     "ImageSearch",
     "MediumGPTPlugin",
+    "diagrams_show_me",
     "askyourpdf",
     "factcheck",
     "Space",
-    "Charts_and_Diagrams",
-    "diagrams_show_me"
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
