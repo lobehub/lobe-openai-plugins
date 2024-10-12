@@ -1,8 +1,9 @@
 {
   "expires": [
-    "socialsearch",
     "GifApi",
+    "socialsearch",
     "stackoverflow_plus",
+    "TokenInsights",
     "speak",
     "scholarly",
     "ResearchAI",
@@ -12,11 +13,11 @@
     "Bardeen",
     "ImageSearch",
     "MediumGPTPlugin",
-    "diagrams_show_me",
     "askyourpdf",
     "factcheck",
     "Space",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "diagrams_show_me"
   ],
   "plugins": [
     {
@@ -68,19 +69,6 @@
         "description": "Discover impactful nonprofits to support in your community and beyond.",
         "tags": ["charity"],
         "title": "Change"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "feednews",
-      "homepage": "https://cryptoplugin.feednews.com",
-      "identifier": "TokenInsights",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/token-insights/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/token-insights/logo.webp",
-        "description": "Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.",
-        "tags": ["crypto", "BTC", "ETH", "BNB"],
-        "title": "TokenInsights"
       },
       "schemaVersion": 1
     },
