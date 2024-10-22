@@ -7,15 +7,16 @@
     "scholarly",
     "ResearchAI",
     "domatron",
-    "nba_stats",
     "earthquake",
+    "nba_stats",
     "Bardeen",
     "factcheck",
+    "diceroller",
     "ImageSearch",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Charts_and_Diagrams",
     "Space",
+    "Charts_and_Diagrams",
     "diagrams_show_me"
   ],
   "plugins": [
@@ -328,19 +329,6 @@
         "description": "Insert your website URL to check the availability. Pulsetic tests the uptime, availability & performance of a website.",
         "tags": ["website", "performance", "test"],
         "title": "Check Website Down"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "magejosh",
-      "homepage": "https://dmtoolkit.magejosh.repl.co",
-      "identifier": "diceroller",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/diceroller/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/diceroller/logo.webp",
-        "description": "App for rolling dice using the d20 or Fate/Fudge systems.",
-        "tags": ["game", "dice", "dm"],
-        "title": "DM Tool Kit"
       },
       "schemaVersion": 1
     },
