@@ -4,20 +4,20 @@
     "socialsearch",
     "stackoverflow_plus",
     "TokenInsights",
+    "diagrams_show_me",
     "scholarly",
     "domatron",
-    "nba_stats",
     "ResearchAI",
+    "nba_stats",
     "earthquake",
     "Bardeen",
     "diceroller",
     "factcheck",
     "ImageSearch",
-    "diagrams_show_me",
     "MediumGPTPlugin",
+    "Charts_and_Diagrams",
     "askyourpdf",
-    "Space",
-    "Charts_and_Diagrams"
+    "Space"
   ],
   "plugins": [
     {
