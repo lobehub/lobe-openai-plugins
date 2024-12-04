@@ -5,10 +5,9 @@
     "stackoverflow_plus",
     "TokenInsights",
     "diagrams_show_me",
-    "scholarly",
+    "ResearchAI",
     "domatron",
     "nba_stats",
-    "ResearchAI",
     "earthquake",
     "Bardeen",
     "diceroller",
@@ -16,8 +15,9 @@
     "ImageSearch",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Space",
-    "Charts_and_Diagrams"
+    "scholarly",
+    "Charts_and_Diagrams",
+    "Space"
   ],
   "plugins": [
     {
