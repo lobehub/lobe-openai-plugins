@@ -11,13 +11,13 @@
     "earthquake",
     "Bardeen",
     "diceroller",
+    "factcheck",
     "ImageSearch",
     "MediumGPTPlugin",
     "askyourpdf",
     "scholarly",
     "Space",
-    "Charts_and_Diagrams",
-    "factcheck"
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
