@@ -4,16 +4,17 @@
     "socialsearch",
     "stackoverflow_plus",
     "TokenInsights",
-    "diagrams_show_me",
     "ResearchAI",
+    "earthquake",
     "domatron",
     "nba_stats",
-    "earthquake",
     "Bardeen",
     "diceroller",
     "factcheck",
     "ImageSearch",
+    "diagrams_show_me",
     "MediumGPTPlugin",
+    "make_an_excel_sheet",
     "askyourpdf",
     "scholarly",
     "Space",
@@ -147,19 +148,6 @@
         "description": "Search for information from the internet",
         "tags": ["search", "plugsugar"],
         "title": "Web Search"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "brandzzy",
-      "homepage": "https://sheet-generator.brandzzy.com",
-      "identifier": "make_an_excel_sheet",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/make-a-sheet/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/make-a-sheet/logo.webp",
-        "description": "Generate a csv file that can directly be imported into Google Sheets or MS Excel.",
-        "tags": ["csv", "excel", "sheet"],
-        "title": "Make A Sheet"
       },
       "schemaVersion": 1
     },
