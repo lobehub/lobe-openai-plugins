@@ -4,12 +4,13 @@
     "socialsearch",
     "stackoverflow_plus",
     "TokenInsights",
+    "speak",
     "make_an_excel_sheet",
     "diagrams_show_me",
     "scholarly",
     "domatron",
-    "ResearchAI",
     "nba_stats",
+    "ResearchAI",
     "earthquake",
     "Bardeen",
     "diceroller",
@@ -17,8 +18,8 @@
     "ImageSearch",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Charts_and_Diagrams",
-    "Space"
+    "Space",
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
@@ -109,19 +110,6 @@
         "description": "Find any NFT data on the NEAR Protocol.",
         "tags": ["crypto", "NFT"],
         "title": "MintbaseSearch"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "speak",
-      "homepage": "https://speak.com",
-      "identifier": "speak",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/speak/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/speak/logo.webp",
-        "description": "Learn how to say anything in another language with Speak, your AI-powered language tutor.",
-        "tags": ["education", "language"],
-        "title": "Speak"
       },
       "schemaVersion": 1
     },
