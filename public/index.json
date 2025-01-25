@@ -5,11 +5,11 @@
     "stackoverflow_plus",
     "TokenInsights",
     "web_search",
-    "make_an_excel_sheet",
     "diagrams_show_me",
+    "make_an_excel_sheet",
     "scholarly",
-    "ResearchAI",
     "domatron",
+    "ResearchAI",
     "nba_stats",
     "earthquake",
     "Bardeen",
@@ -18,8 +18,8 @@
     "ImageSearch",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Space",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "Space"
   ],
   "plugins": [
     {
