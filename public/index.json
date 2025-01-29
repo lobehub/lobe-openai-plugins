@@ -8,18 +8,18 @@
     "diagrams_show_me",
     "make_an_excel_sheet",
     "scholarly",
-    "ResearchAI",
     "domatron",
     "nba_stats",
+    "ResearchAI",
     "earthquake",
     "Bardeen",
-    "diceroller",
     "factcheck",
+    "diceroller",
     "ImageSearch",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Space",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "Space"
   ],
   "plugins": [
     {
