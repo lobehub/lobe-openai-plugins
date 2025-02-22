@@ -1,8 +1,8 @@
 {
   "expires": [
     "GifApi",
-    "socialsearch",
     "stackoverflow_plus",
+    "socialsearch",
     "TokenInsights",
     "web_search",
     "diagrams_show_me",
