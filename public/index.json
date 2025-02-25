@@ -11,16 +11,16 @@
     "scholarly",
     "domatron",
     "nba_stats",
-    "ResearchAI",
     "earthquake",
     "Bardeen",
+    "ResearchAI",
     "diceroller",
     "factcheck",
     "ImageSearch",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Space",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "Space"
   ],
   "plugins": [
     {
