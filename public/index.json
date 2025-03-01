@@ -5,8 +5,8 @@
     "stackoverflow_plus",
     "TokenInsights",
     "web_search",
-    "diagrams_show_me",
     "make_an_excel_sheet",
+    "diagrams_show_me",
     "astrodaily",
     "scholarly",
     "ResearchAI",
@@ -18,9 +18,10 @@
     "factcheck",
     "ImageSearch",
     "MediumGPTPlugin",
+    "nftguru",
     "askyourpdf",
-    "Charts_and_Diagrams",
-    "Space"
+    "Space",
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
@@ -72,19 +73,6 @@
         "description": "Discover impactful nonprofits to support in your community and beyond.",
         "tags": ["charity"],
         "title": "Change"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "swap",
-      "homepage": "https://app.swap.net",
-      "identifier": "nftguru",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/nftguru/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/nftguru/logo.webp",
-        "description": "Discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time",
-        "tags": ["crypto", "NFT"],
-        "title": "NFT Guru"
       },
       "schemaVersion": 1
     },
