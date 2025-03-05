@@ -10,9 +10,9 @@
     "astrodaily",
     "scholarly",
     "ResearchAI",
-    "earthquake",
     "domatron",
     "nba_stats",
+    "earthquake",
     "Bardeen",
     "diceroller",
     "factcheck",
@@ -20,8 +20,8 @@
     "MediumGPTPlugin",
     "nftguru",
     "askyourpdf",
-    "Space",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "Space"
   ],
   "plugins": [
     {
