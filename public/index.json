@@ -7,13 +7,13 @@
     "TokenInsights",
     "speak",
     "web_search",
-    "diagrams_show_me",
     "make_an_excel_sheet",
     "astrodaily",
+    "diagrams_show_me",
     "scholarly",
+    "ResearchAI",
     "domatron",
     "nba_stats",
-    "ResearchAI",
     "earthquake",
     "Bardeen",
     "diceroller",
@@ -21,8 +21,8 @@
     "ImageSearch",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Space",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "Space"
   ],
   "plugins": [
     {
