@@ -12,17 +12,17 @@
     "astrodaily",
     "scholarly",
     "domatron",
-    "ResearchAI",
     "nba_stats",
-    "Bardeen",
+    "ResearchAI",
     "earthquake",
+    "Bardeen",
     "diceroller",
     "factcheck",
     "ImageSearch",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Charts_and_Diagrams",
-    "Space"
+    "Space",
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
