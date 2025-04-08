@@ -5,24 +5,25 @@
     "stackoverflow_plus",
     "TokenInsights",
     "nftguru",
-    "web_search",
-    "make_an_excel_sheet",
     "speak",
+    "web_search",
     "diagrams_show_me",
+    "make_an_excel_sheet",
     "astrodaily",
     "scholarly",
     "domatron",
-    "nba_stats",
-    "earthquake",
     "ResearchAI",
+    "nba_stats",
     "Bardeen",
+    "earthquake",
     "diceroller",
     "factcheck",
     "ImageSearch",
+    "uberchord",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Space",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "Space"
   ],
   "plugins": [
     {
@@ -373,19 +374,6 @@
         "description": "A research assistant that returns a set of URI's to examples of fine art requested by user.",
         "tags": ["art", "fineart", "search"],
         "title": "SuperStock Fine Art"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "pluginboost",
-      "homepage": "https://guitarchords.pluginboost.com",
-      "identifier": "uberchord",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/uberchord/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/uberchord/logo.webp",
-        "description": "Find guitar chord diagrams by specifying the chord name.",
-        "tags": ["music", "guitar", "search"],
-        "title": "Uberchord"
       },
       "schemaVersion": 1
     }
