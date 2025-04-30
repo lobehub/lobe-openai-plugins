@@ -3,16 +3,15 @@
     "GifApi",
     "socialsearch",
     "stackoverflow_plus",
-    "nftguru",
     "TokenInsights",
+    "nftguru",
     "speak",
     "web_search",
+    "diagrams_show_me",
     "astrodaily",
     "scholarly",
     "ResearchAI",
     "domatron",
-    "earthquake",
-    "diagrams_show_me",
     "nba_stats",
     "Bardeen",
     "diceroller",
@@ -22,8 +21,9 @@
     "MediumGPTPlugin",
     "make_an_excel_sheet",
     "askyourpdf",
-    "Space",
-    "Charts_and_Diagrams"
+    "earthquake",
+    "Charts_and_Diagrams",
+    "Space"
   ],
   "plugins": [
     {
