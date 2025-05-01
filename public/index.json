@@ -3,10 +3,11 @@
     "GifApi",
     "socialsearch",
     "stackoverflow_plus",
-    "TokenInsights",
     "nftguru",
+    "TokenInsights",
     "speak",
     "web_search",
+    "mintbasesearch",
     "diagrams_show_me",
     "astrodaily",
     "scholarly",
@@ -22,8 +23,8 @@
     "make_an_excel_sheet",
     "askyourpdf",
     "earthquake",
-    "Charts_and_Diagrams",
-    "Space"
+    "Space",
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
@@ -88,19 +89,6 @@
         "description": "Retrieve data on DeFi protocols and blockchains.",
         "tags": ["crypto", "DeFi"],
         "title": "Defillama"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "mintbase",
-      "homepage": "https://search-ai.mintbase.xyz",
-      "identifier": "mintbasesearch",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/mintbasesearch/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/mintbasesearch/logo.webp",
-        "description": "Find any NFT data on the NEAR Protocol.",
-        "tags": ["crypto", "NFT"],
-        "title": "MintbaseSearch"
       },
       "schemaVersion": 1
     },
