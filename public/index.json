@@ -3,17 +3,18 @@
     "GifApi",
     "socialsearch",
     "stackoverflow_plus",
-    "TokenInsights",
     "nftguru",
+    "TokenInsights",
     "speak",
-    "mintbasesearch",
-    "diagrams_show_me",
     "web_search",
+    "diagrams_show_me",
+    "mintbasesearch",
     "astrodaily",
     "scholarly",
-    "ResearchAI",
+    "todo",
     "domatron",
     "nba_stats",
+    "ResearchAI",
     "Bardeen",
     "diceroller",
     "factcheck",
@@ -167,19 +168,6 @@
         "description": "Get help exploring the scientific literature. Find relevant papers and generate mindmaps of the literature.",
         "tags": ["scientific-literature", "search"],
         "title": "Litmaps"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "guruwalk",
-      "homepage": "https://www.guruwalk.com",
-      "identifier": "todo",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/guru-walk/logo.webp",
-        "description": "The best free tour guides in the world are here.",
-        "tags": ["travel", "guides"],
-        "title": "GuruWalk"
       },
       "schemaVersion": 1
     },
