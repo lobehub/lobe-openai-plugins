@@ -6,10 +6,10 @@
     "TokenInsights",
     "nftguru",
     "mintbasesearch",
-    "speak",
-    "diagrams_show_me",
     "web_search",
+    "speak",
     "astrodaily",
+    "diagrams_show_me",
     "scholarly",
     "ResearchAI",
     "domatron",
@@ -24,8 +24,8 @@
     "make_an_excel_sheet",
     "askyourpdf",
     "earthquake",
-    "Space",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "Space"
   ],
   "plugins": [
     {
