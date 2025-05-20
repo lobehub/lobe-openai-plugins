@@ -5,16 +5,16 @@
     "stackoverflow_plus",
     "TokenInsights",
     "nftguru",
+    "speak",
     "mintbasesearch",
     "web_search",
-    "speak",
     "diagrams_show_me",
     "astrodaily",
     "scholarly",
-    "todo",
     "ResearchAI",
     "domatron",
     "nba_stats",
+    "todo",
     "Bardeen",
     "diceroller",
     "factcheck",
@@ -24,8 +24,8 @@
     "make_an_excel_sheet",
     "askyourpdf",
     "earthquake",
-    "Charts_and_Diagrams",
-    "Space"
+    "Space",
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
