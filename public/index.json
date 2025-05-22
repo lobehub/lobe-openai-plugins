@@ -6,8 +6,8 @@
     "TokenInsights",
     "nftguru",
     "speak",
-    "mintbasesearch",
     "web_search",
+    "mintbasesearch",
     "diagrams_show_me",
     "astrodaily",
     "scholarly",
@@ -19,13 +19,14 @@
     "diceroller",
     "factcheck",
     "ImageSearch",
+    "make_an_excel_sheet",
     "uberchord",
     "MediumGPTPlugin",
-    "make_an_excel_sheet",
     "askyourpdf",
     "earthquake",
     "Space",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "StockData"
   ],
   "plugins": [
     {
@@ -298,19 +299,6 @@
         "description": "Get real-time worldwide weather updates & forecasts, instantly!",
         "tags": ["weather"],
         "title": "MixerBox Weather"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "portfoliometa",
-      "homepage": "https://portfoliometa.com",
-      "identifier": "StockData",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/stock-data/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/stock-data/logo.webp",
-        "description": "Analyze stocks and get comprehensive real-time investment data and analytics.",
-        "tags": ["stock"],
-        "title": "PortfolioMeta"
       },
       "schemaVersion": 1
     },
