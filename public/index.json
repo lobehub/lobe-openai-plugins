@@ -1,19 +1,20 @@
 {
   "expires": [
+    "assetOvi",
     "GifApi",
-    "socialsearch",
     "stackoverflow_plus",
-    "nftguru",
+    "socialsearch",
     "TokenInsights",
+    "nftguru",
     "speak",
     "web_search",
     "mintbasesearch",
     "diagrams_show_me",
     "astrodaily",
     "scholarly",
+    "ResearchAI",
     "earthquake",
     "domatron",
-    "ResearchAI",
     "nba_stats",
     "todo",
     "Bardeen",
@@ -51,19 +52,6 @@
         "description": "Realtime stock, crypto and other investment data.",
         "tags": ["stock", "analyze"],
         "title": "Savvy Trader AI"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "assetovi",
-      "homepage": "https://assetovi.com",
-      "identifier": "assetOvi",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/asset-ovi/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/asset-ovi/logo.webp",
-        "description": "Search and preview millions of 3D assets for games, AIGC, AR/VR and others.",
-        "tags": ["3-d", "assets", "search"],
-        "title": "Asset Ovi"
       },
       "schemaVersion": 1
     },
