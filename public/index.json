@@ -4,9 +4,9 @@
     "GifApi",
     "socialsearch",
     "stackoverflow_plus",
-    "mintbasesearch",
     "TokenInsights",
     "nftguru",
+    "mintbasesearch",
     "web_search",
     "diagrams_show_me",
     "astrodaily",
@@ -23,8 +23,8 @@
     "uberchord",
     "MediumGPTPlugin",
     "make_an_excel_sheet",
-    "earthquake",
     "askyourpdf",
+    "earthquake",
     "Charts_and_Diagrams"
   ],
   "plugins": [
