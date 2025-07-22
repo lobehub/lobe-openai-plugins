@@ -11,10 +11,10 @@
     "diagrams_show_me",
     "astrodaily",
     "scholarly",
-    "todo",
     "ResearchAI",
     "domatron",
     "nba_stats",
+    "todo",
     "Bardeen",
     "diceroller",
     "factcheck",
@@ -23,8 +23,8 @@
     "uberchord",
     "MediumGPTPlugin",
     "make_an_excel_sheet",
-    "askyourpdf",
     "earthquake",
+    "askyourpdf",
     "Charts_and_Diagrams"
   ],
   "plugins": [
