@@ -13,9 +13,9 @@
     "diagrams_show_me",
     "scholarly",
     "astrodaily",
-    "ResearchAI",
     "domatron",
     "nba_stats",
+    "ResearchAI",
     "todo",
     "Bardeen",
     "diceroller",
@@ -25,8 +25,8 @@
     "uberchord",
     "MediumGPTPlugin",
     "askyourpdf",
-    "Charts_and_Diagrams",
-    "earthquake"
+    "earthquake",
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
