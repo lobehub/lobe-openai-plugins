@@ -1,23 +1,23 @@
 {
   "expires": [
-    "assetOvi",
     "GifApi",
-    "stackoverflow_plus",
     "socialsearch",
+    "assetOvi",
+    "stackoverflow_plus",
     "nftguru",
     "TokenInsights",
-    "mintbasesearch",
+    "speak",
     "web_search",
     "diagrams_show_me",
-    "speak",
-    "make_an_excel_sheet",
+    "mintbasesearch",
     "astrodaily",
+    "make_an_excel_sheet",
     "scholarly",
     "ResearchAI",
     "domatron",
     "nba_stats",
-    "todo",
     "Bardeen",
+    "todo",
     "diceroller",
     "factcheck",
     "ImageSearch",
@@ -25,8 +25,8 @@
     "uberchord",
     "Charts_and_Diagrams",
     "MediumGPTPlugin",
-    "askyourpdf",
-    "earthquake"
+    "earthquake",
+    "askyourpdf"
   ],
   "plugins": [
     {
