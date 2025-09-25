@@ -6,16 +6,16 @@
     "stackoverflow_plus",
     "nftguru",
     "TokenInsights",
-    "speak",
-    "web_search",
     "mintbasesearch",
+    "web_search",
     "diagrams_show_me",
+    "speak",
     "astrodaily",
     "scholarly",
-    "todo",
     "ResearchAI",
     "domatron",
     "nba_stats",
+    "todo",
     "Bardeen",
     "diceroller",
     "factcheck",
@@ -26,8 +26,7 @@
     "Charts_and_Diagrams",
     "make_an_excel_sheet",
     "askyourpdf",
-    "earthquake",
-    "StockData"
+    "earthquake"
   ],
   "plugins": [
     {
@@ -287,6 +286,19 @@
         "description": "Get real-time worldwide weather updates & forecasts, instantly!",
         "tags": ["weather"],
         "title": "MixerBox Weather"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "portfoliometa",
+      "homepage": "https://portfoliometa.com",
+      "identifier": "StockData",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/stock-data/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/stock-data/logo.webp",
+        "description": "Analyze stocks and get comprehensive real-time investment data and analytics.",
+        "tags": ["stock"],
+        "title": "PortfolioMeta"
       },
       "schemaVersion": 1
     },
