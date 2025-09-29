@@ -5,15 +5,15 @@
     "socialsearch",
     "stackoverflow_plus",
     "nftguru",
-    "mintbasesearch",
     "TokenInsights",
+    "mintbasesearch",
     "speak",
     "web_search",
     "diagrams_show_me",
     "astrodaily",
     "scholarly",
-    "ResearchAI",
     "todo",
+    "ResearchAI",
     "domatron",
     "nba_stats",
     "Bardeen",
@@ -25,8 +25,8 @@
     "Charts_and_Diagrams",
     "MediumGPTPlugin",
     "make_an_excel_sheet",
-    "askyourpdf",
-    "earthquake"
+    "earthquake",
+    "askyourpdf"
   ],
   "plugins": [
     {
