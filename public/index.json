@@ -6,8 +6,8 @@
     "stackoverflow_plus",
     "nftguru",
     "TokenInsights",
-    "speak",
     "mintbasesearch",
+    "speak",
     "web_search",
     "make_an_excel_sheet",
     "astrodaily",
@@ -24,9 +24,9 @@
     "uberchord",
     "Charts_and_Diagrams",
     "MediumGPTPlugin",
+    "askyourpdf",
     "diagrams_show_me",
-    "earthquake",
-    "askyourpdf"
+    "earthquake"
   ],
   "plugins": [
     {
