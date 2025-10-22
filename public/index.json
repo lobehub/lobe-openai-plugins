@@ -1,20 +1,20 @@
 {
   "expires": [
-    "GifApi",
     "assetOvi",
+    "GifApi",
     "socialsearch",
-    "stackoverflow_plus",
     "nftguru",
+    "stackoverflow_plus",
     "TokenInsights",
     "speak",
     "web_search",
-    "mintbasesearch",
     "make_an_excel_sheet",
     "astrodaily",
     "scholarly",
     "ResearchAI",
-    "todo",
+    "mintbasesearch",
     "domatron",
+    "todo",
     "nba_stats",
     "Bardeen",
     "diceroller",
@@ -25,8 +25,8 @@
     "Charts_and_Diagrams",
     "MediumGPTPlugin",
     "askyourpdf",
-    "earthquake",
-    "diagrams_show_me"
+    "diagrams_show_me",
+    "earthquake"
   ],
   "plugins": [
     {
