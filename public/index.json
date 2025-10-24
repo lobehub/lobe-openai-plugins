@@ -2,8 +2,8 @@
   "expires": [
     "assetOvi",
     "GifApi",
-    "socialsearch",
     "stackoverflow_plus",
+    "socialsearch",
     "nftguru",
     "TokenInsights",
     "speak",
@@ -22,11 +22,12 @@
     "ImageSearch",
     "Space",
     "uberchord",
-    "Charts_and_Diagrams",
     "MediumGPTPlugin",
-    "diagrams_show_me",
+    "Charts_and_Diagrams",
+    "ShoppingTools",
     "askyourpdf",
-    "earthquake"
+    "earthquake",
+    "diagrams_show_me"
   ],
   "plugins": [
     {
@@ -312,19 +313,6 @@
         "description": "The SEO Assistant can generate search engine keyword information in order to aid the creation of content.",
         "tags": ["seo", "keyword"],
         "title": "SEO Assistant"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "shoppingtools",
-      "homepage": "https://shoppingtools.biz",
-      "identifier": "ShoppingTools",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/shopping-tools/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/shopping-tools/logo.webp",
-        "description": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
-        "tags": ["shopping", "eBay", "AliExpress", "coupons"],
-        "title": "Shopping tools"
       },
       "schemaVersion": 1
     },
