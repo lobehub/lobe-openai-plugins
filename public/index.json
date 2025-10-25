@@ -6,9 +6,9 @@
     "socialsearch",
     "nftguru",
     "TokenInsights",
-    "speak",
-    "web_search",
     "mintbasesearch",
+    "web_search",
+    "speak",
     "make_an_excel_sheet",
     "astrodaily",
     "scholarly",
@@ -26,8 +26,8 @@
     "Charts_and_Diagrams",
     "ShoppingTools",
     "askyourpdf",
-    "earthquake",
-    "diagrams_show_me"
+    "diagrams_show_me",
+    "earthquake"
   ],
   "plugins": [
     {
