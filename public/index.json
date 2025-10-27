@@ -1,9 +1,9 @@
 {
   "expires": [
-    "assetOvi",
     "GifApi",
-    "stackoverflow_plus",
+    "assetOvi",
     "socialsearch",
+    "stackoverflow_plus",
     "nftguru",
     "TokenInsights",
     "speak",
@@ -22,11 +22,11 @@
     "ImageSearch",
     "Space",
     "uberchord",
-    "MediumGPTPlugin",
     "Charts_and_Diagrams",
+    "MediumGPTPlugin",
     "askyourpdf",
-    "diagrams_show_me",
-    "earthquake"
+    "earthquake",
+    "diagrams_show_me"
   ],
   "plugins": [
     {
