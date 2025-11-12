@@ -2,6 +2,7 @@
   "expires": [
     "assetOvi",
     "GifApi",
+    "SEO",
     "socialsearch",
     "stackoverflow_plus",
     "nftguru",
@@ -29,19 +30,6 @@
     "diagrams_show_me"
   ],
   "plugins": [
-    {
-      "author": "orrenprunckun",
-      "homepage": "https://seo-plugin.orrenprunckun.com",
-      "identifier": "SEO",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/seo/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/seo/logo.webp",
-        "description": "Enter any URL and keyword and get an On-Page SEO analysis & insights!",
-        "tags": ["seo"],
-        "title": "SEO"
-      },
-      "schemaVersion": 1
-    },
     {
       "author": "savvytrader",
       "homepage": "https://savvytrader.com",
