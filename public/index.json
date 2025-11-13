@@ -1,15 +1,14 @@
 {
   "expires": [
-    "assetOvi",
     "GifApi",
-    "SEO",
+    "assetOvi",
     "socialsearch",
     "stackoverflow_plus",
     "nftguru",
     "TokenInsights",
+    "web_search",
     "speak",
     "mintbasesearch",
-    "web_search",
     "make_an_excel_sheet",
     "astrodaily",
     "scholarly",
@@ -18,18 +17,31 @@
     "domatron",
     "nba_stats",
     "Bardeen",
-    "diceroller",
     "factcheck",
+    "diceroller",
     "ImageSearch",
     "Space",
     "uberchord",
-    "Charts_and_Diagrams",
     "MediumGPTPlugin",
+    "Charts_and_Diagrams",
     "askyourpdf",
-    "earthquake",
-    "diagrams_show_me"
+    "diagrams_show_me",
+    "earthquake"
   ],
   "plugins": [
+    {
+      "author": "orrenprunckun",
+      "homepage": "https://seo-plugin.orrenprunckun.com",
+      "identifier": "SEO",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/seo/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/seo/logo.webp",
+        "description": "Enter any URL and keyword and get an On-Page SEO analysis & insights!",
+        "tags": ["seo"],
+        "title": "SEO"
+      },
+      "schemaVersion": 1
+    },
     {
       "author": "savvytrader",
       "homepage": "https://savvytrader.com",
