@@ -3,14 +3,14 @@
     "assetOvi",
     "GifApi",
     "socialsearch",
-    "nftguru",
     "stackoverflow_plus",
+    "nftguru",
     "TokenInsights",
     "speak",
-    "web_search",
-    "make_an_excel_sheet",
-    "diagrams_show_me",
     "mintbasesearch",
+    "web_search",
+    "diagrams_show_me",
+    "make_an_excel_sheet",
     "astrodaily",
     "scholarly",
     "ResearchAI",
@@ -25,8 +25,8 @@
     "uberchord",
     "MediumGPTPlugin",
     "Charts_and_Diagrams",
-    "earthquake",
-    "askyourpdf"
+    "askyourpdf",
+    "earthquake"
   ],
   "plugins": [
     {
