@@ -6,10 +6,10 @@
     "nftguru",
     "stackoverflow_plus",
     "TokenInsights",
-    "mintbasesearch",
     "speak",
     "web_search",
     "make_an_excel_sheet",
+    "diagrams_show_me",
     "astrodaily",
     "boolio",
     "scholarly",
@@ -17,6 +17,7 @@
     "todo",
     "domatron",
     "nba_stats",
+    "mintbasesearch",
     "Bardeen",
     "diceroller",
     "factcheck",
@@ -24,10 +25,9 @@
     "Space",
     "MediumGPTPlugin",
     "uberchord",
-    "earthquake",
     "askyourpdf",
-    "Charts_and_Diagrams",
-    "diagrams_show_me"
+    "earthquake",
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
