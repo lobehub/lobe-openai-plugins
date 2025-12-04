@@ -8,16 +8,15 @@
     "TokenInsights",
     "speak",
     "web_search",
+    "mintbasesearch",
     "make_an_excel_sheet",
-    "diagrams_show_me",
     "astrodaily",
     "boolio",
     "scholarly",
-    "ResearchAI",
     "todo",
+    "ResearchAI",
     "domatron",
     "nba_stats",
-    "mintbasesearch",
     "Bardeen",
     "diceroller",
     "factcheck",
@@ -27,7 +26,8 @@
     "uberchord",
     "askyourpdf",
     "earthquake",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "diagrams_show_me"
   ],
   "plugins": [
     {
