@@ -1,13 +1,13 @@
 {
   "expires": [
-    "GifApi",
     "assetOvi",
+    "GifApi",
     "socialsearch",
     "stackoverflow_plus",
     "nftguru",
     "TokenInsights",
-    "mintbasesearch",
     "speak",
+    "mintbasesearch",
     "web_search",
     "make_an_excel_sheet",
     "astrodaily",
@@ -19,6 +19,7 @@
     "nba_stats",
     "Bardeen",
     "diceroller",
+    "AladinSearchBooks",
     "factcheck",
     "ImageSearch",
     "Space",
@@ -196,19 +197,6 @@
         "description": "Ask your Google Sheets questions & chat with excel. Enter Google Drive link to start!",
         "tags": ["google", "sheets", "excel"],
         "title": "Access Google Sheet"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "azurewebsites",
-      "homepage": "https://aladin-search-book.azurewebsites.net",
-      "identifier": "AladinSearchBooks",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/aladin-search-book/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/aladin-search-book/logo.webp",
-        "description": "Search for books on Aladin.",
-        "tags": ["book", "search"],
-        "title": "AladinBooks"
       },
       "schemaVersion": 1
     },
