@@ -2,22 +2,25 @@
   "expires": [
     "assetOvi",
     "GifApi",
-    "stackoverflow_plus",
     "socialsearch",
+    "stackoverflow_plus",
     "nftguru",
     "TokenInsights",
-    "speak",
-    "web_search",
     "mintbasesearch",
-    "diagrams_show_me",
+    "web_search",
+    "speak",
     "make_an_excel_sheet",
+    "diagrams_show_me",
+    "WeatherGPT",
+    "gitUserRepoStats",
+    "questmate",
     "astrodaily",
-    "scholarly",
     "boolio",
-    "ResearchAI",
+    "scholarly",
     "domatron",
     "nba_stats",
-    "todo",
+    "VideoCaptions",
+    "ResearchAI",
     "Bardeen",
     "diceroller",
     "factcheck",
@@ -96,45 +99,6 @@
       "schemaVersion": 1
     },
     {
-      "author": "steven-tey",
-      "homepage": "https://github.com/steven-tey/weathergpt",
-      "identifier": "WeatherGPT",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/weather-gpt/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/weather-gpt/logo.webp",
-        "description": "Get current weather information for a specific location.",
-        "tags": ["weather"],
-        "title": "WeatherGPT"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "yunwei37",
-      "homepage": "https://github.com/yunwei37/ChatGPT-github-stat-plugin",
-      "identifier": "gitUserRepoStats",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/github-stats/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/github-stats/logo.webp",
-        "description": "Dynamically generate and analyze stats and history for OSS repos and developers.",
-        "tags": ["github", "oss"],
-        "title": "Git OSS Stats"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "questmate",
-      "homepage": "https://chatgpt-plugin.questmate.com",
-      "identifier": "questmate",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/questmate/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/questmate/logo.webp",
-        "description": "Create forms, checklists and workflows (we call 'em Quests!) that you can assign, schedule or make public.",
-        "tags": ["forms", "checklists", "productivity"],
-        "title": "Questmate Forms"
-      },
-      "schemaVersion": 1
-    },
-    {
       "author": "litmaps",
       "homepage": "https://api.litmaps.com",
       "identifier": "litmaps",
@@ -157,19 +121,6 @@
         "description": "Unleash personalized hotel search with Travelmyth, offering 60 unique categories for the perfect match.",
         "tags": ["travel", "hotel", "search"],
         "title": "Travelmyth"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "maila",
-      "homepage": "https://vcaption.maila.ai",
-      "identifier": "VideoCaptions",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/video-captions/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/video-captions/logo.webp",
-        "description": "Convert Youtube links into transcribed text, enable asking questions, create chapters, and summarize its content.",
-        "tags": ["video-to-text", "youtube"],
-        "title": "Video Captions"
       },
       "schemaVersion": 1
     },
