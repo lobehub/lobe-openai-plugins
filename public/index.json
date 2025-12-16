@@ -1,18 +1,18 @@
 {
   "expires": [
-    "GifApi",
     "assetOvi",
-    "stackoverflow_plus",
+    "GifApi",
     "socialsearch",
+    "stackoverflow_plus",
     "nftguru",
     "TokenInsights",
-    "web_search",
     "speak",
-    "make_an_excel_sheet",
+    "web_search",
     "mintbasesearch",
+    "make_an_excel_sheet",
     "astrodaily",
-    "scholarly",
     "boolio",
+    "scholarly",
     "ResearchAI",
     "todo",
     "domatron",
@@ -21,13 +21,11 @@
     "diceroller",
     "factcheck",
     "ImageSearch",
-    "seo_assistant",
     "Space",
-    "ShoppingTools",
     "uberchord",
     "MediumGPTPlugin",
-    "earthquake",
     "askyourpdf",
+    "earthquake",
     "Charts_and_Diagrams",
     "diagrams_show_me"
   ],
@@ -289,6 +287,32 @@
         "description": "Analyze stocks and get comprehensive real-time investment data and analytics.",
         "tags": ["stock"],
         "title": "PortfolioMeta"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "webfx",
+      "homepage": "https://webfx.ai",
+      "identifier": "seo_assistant",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/seo-assistant/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/seo-assistant/logo.webp",
+        "description": "The SEO Assistant can generate search engine keyword information in order to aid the creation of content.",
+        "tags": ["seo", "keyword"],
+        "title": "SEO Assistant"
+      },
+      "schemaVersion": 1
+    },
+    {
+      "author": "shoppingtools",
+      "homepage": "https://shoppingtools.biz",
+      "identifier": "ShoppingTools",
+      "manifest": "https://openai-collections.chat-plugin.lobehub.com/shopping-tools/manifest.json",
+      "meta": {
+        "avatar": "https://openai-collections.chat-plugin.lobehub.com/shopping-tools/logo.webp",
+        "description": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
+        "tags": ["shopping", "eBay", "AliExpress", "coupons"],
+        "title": "Shopping tools"
       },
       "schemaVersion": 1
     },
