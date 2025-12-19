@@ -1,17 +1,17 @@
 {
   "expires": [
-    "assetOvi",
     "GifApi",
+    "assetOvi",
     "socialsearch",
-    "stackoverflow_plus",
     "nftguru",
+    "stackoverflow_plus",
     "speak",
-    "mintbasesearch",
     "TokenInsights",
+    "mintbasesearch",
     "web_search",
     "make_an_excel_sheet",
-    "astrodaily",
     "boolio",
+    "astrodaily",
     "scholarly",
     "ResearchAI",
     "todo",
@@ -22,8 +22,9 @@
     "factcheck",
     "ImageSearch",
     "Space",
-    "MediumGPTPlugin",
+    "ssfineart",
     "uberchord",
+    "MediumGPTPlugin",
     "askyourpdf",
     "earthquake",
     "Charts_and_Diagrams",
@@ -313,19 +314,6 @@
         "description": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
         "tags": ["shopping", "eBay", "AliExpress", "coupons"],
         "title": "Shopping tools"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "azurewebsites",
-      "homepage": "https://gptfineart.azurewebsites.net",
-      "identifier": "ssfineart",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/ssfineart/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/ssfineart/logo.webp",
-        "description": "A research assistant that returns a set of URI's to examples of fine art requested by user.",
-        "tags": ["art", "fineart", "search"],
-        "title": "SuperStock Fine Art"
       },
       "schemaVersion": 1
     }
