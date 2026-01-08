@@ -1,12 +1,12 @@
 {
   "expires": [
-    "assetOvi",
     "GifApi",
+    "assetOvi",
     "socialsearch",
     "stackoverflow_plus",
     "nftguru",
-    "TokenInsights",
     "speak",
+    "TokenInsights",
     "web_search",
     "mintbasesearch",
     "diagrams_show_me",
