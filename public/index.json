@@ -1,7 +1,7 @@
 {
   "expires": [
-    "GifApi",
     "assetOvi",
+    "GifApi",
     "socialsearch",
     "nftguru",
     "stackoverflow_plus",
@@ -9,26 +9,28 @@
     "speak",
     "mintbasesearch",
     "web_search",
+    "diagrams_show_me",
     "make_an_excel_sheet",
     "astrodaily",
-    "boolio",
     "scholarly",
-    "todo",
+    "boolio",
     "ResearchAI",
     "domatron",
     "nba_stats",
     "Bardeen",
+    "todo",
     "diceroller",
     "factcheck",
     "ImageSearch",
+    "seo_assistant",
     "Space",
     "ssfineart",
     "uberchord",
+    "ShoppingTools",
     "MediumGPTPlugin",
     "askyourpdf",
     "earthquake",
-    "Charts_and_Diagrams",
-    "diagrams_show_me"
+    "Charts_and_Diagrams"
   ],
   "plugins": [
     {
@@ -288,32 +290,6 @@
         "description": "Analyze stocks and get comprehensive real-time investment data and analytics.",
         "tags": ["stock"],
         "title": "PortfolioMeta"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "webfx",
-      "homepage": "https://webfx.ai",
-      "identifier": "seo_assistant",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/seo-assistant/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/seo-assistant/logo.webp",
-        "description": "The SEO Assistant can generate search engine keyword information in order to aid the creation of content.",
-        "tags": ["seo", "keyword"],
-        "title": "SEO Assistant"
-      },
-      "schemaVersion": 1
-    },
-    {
-      "author": "shoppingtools",
-      "homepage": "https://shoppingtools.biz",
-      "identifier": "ShoppingTools",
-      "manifest": "https://openai-collections.chat-plugin.lobehub.com/shopping-tools/manifest.json",
-      "meta": {
-        "avatar": "https://openai-collections.chat-plugin.lobehub.com/shopping-tools/logo.webp",
-        "description": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
-        "tags": ["shopping", "eBay", "AliExpress", "coupons"],
-        "title": "Shopping tools"
       },
       "schemaVersion": 1
     }
