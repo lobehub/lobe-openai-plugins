@@ -7,16 +7,15 @@
     "nftguru",
     "TokenInsights",
     "speak",
-    "mintbasesearch",
     "web_search",
-    "diagrams_show_me",
+    "mintbasesearch",
     "make_an_excel_sheet",
     "astrodaily",
-    "boolio",
     "scholarly",
+    "boolio",
     "todo",
-    "domatron",
     "ResearchAI",
+    "domatron",
     "nba_stats",
     "Bardeen",
     "diceroller",
@@ -28,7 +27,8 @@
     "MediumGPTPlugin",
     "askyourpdf",
     "earthquake",
-    "Charts_and_Diagrams"
+    "Charts_and_Diagrams",
+    "diagrams_show_me"
   ],
   "plugins": [
     {
