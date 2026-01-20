@@ -1,8 +1,9 @@
 {
   "expires": [
-    "GifApi",
     "assetOvi",
+    "GifApi",
     "socialsearch",
+    "stackoverflow_plus",
     "nftguru",
     "mintbasesearch",
     "speak",
@@ -14,10 +15,9 @@
     "boolio",
     "scholarly",
     "todo",
-    "ResearchAI",
     "domatron",
-    "stackoverflow_plus",
     "nba_stats",
+    "ResearchAI",
     "Bardeen",
     "diceroller",
     "factcheck",
