@@ -1,7 +1,7 @@
 {
   "expires": [
-    "assetOvi",
     "GifApi",
+    "assetOvi",
     "socialsearch",
     "stackoverflow_plus",
     "nftguru",
@@ -14,10 +14,9 @@
     "astrodaily",
     "boolio",
     "scholarly",
-    "todo",
     "domatron",
-    "nba_stats",
     "ResearchAI",
+    "nba_stats",
     "Bardeen",
     "diceroller",
     "factcheck",
@@ -26,6 +25,7 @@
     "ssfineart",
     "uberchord",
     "MediumGPTPlugin",
+    "todo",
     "askyourpdf",
     "earthquake",
     "Charts_and_Diagrams"
