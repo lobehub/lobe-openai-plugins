@@ -13,7 +13,15 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/create-github-app-token@v2
+        id: app-token
+        with:
+          app-id: ${{ vars.LOBEHUB_BOT_APP_ID }}
+          private-key: ${{ secrets.LOBEHUB_BOT_APP_PRIVATE_KEY }}
+
       - uses: actions/checkout@v3
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Install bun
         uses: oven-sh/setup-bun@v1
@@ -36,4 +44,4 @@ jobs:
           git commit -m "🤖 chore: Auto sync plugins" || exit 0
           git push
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
