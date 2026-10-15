@@ -3,7 +3,7 @@
 <div align="center">
 
 <img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-emoji/assets/puzzle-piece.webp">
-<img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/split.svg">
 <img height="120" src="https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/297340190-c683c727-58ee-4bab-8d91-f36fe541e511.png">
 
 <h1>OpenAI Plugins Directory<br/><sup>LobeChat Plugin</sup></h1>
